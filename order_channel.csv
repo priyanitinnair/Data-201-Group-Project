@@ -1,0 +1,1001 @@
+order_id,order_channel
+ORD_00000001,Drive-Thru
+ORD_00000002,"Mobile App"
+ORD_00000003,Kiosk
+ORD_00000004,Drive-Thru
+ORD_00000005,Drive-Thru
+ORD_00000006,"Mobile App"
+ORD_00000007,"Mobile App"
+ORD_00000008,"Mobile App"
+ORD_00000009,"Mobile App"
+ORD_00000010,"In-Store Cashier"
+ORD_00000011,"Mobile App"
+ORD_00000012,"In-Store Cashier"
+ORD_00000013,"Mobile App"
+ORD_00000014,"Mobile App"
+ORD_00000015,"Mobile App"
+ORD_00000016,Drive-Thru
+ORD_00000017,Drive-Thru
+ORD_00000018,"In-Store Cashier"
+ORD_00000019,Drive-Thru
+ORD_00000020,"In-Store Cashier"
+ORD_00000021,Drive-Thru
+ORD_00000022,"Mobile App"
+ORD_00000023,"Mobile App"
+ORD_00000024,Kiosk
+ORD_00000025,Kiosk
+ORD_00000026,Drive-Thru
+ORD_00000027,Kiosk
+ORD_00000028,"In-Store Cashier"
+ORD_00000029,"Mobile App"
+ORD_00000030,"Mobile App"
+ORD_00000031,"Mobile App"
+ORD_00000032,"Mobile App"
+ORD_00000033,Drive-Thru
+ORD_00000034,"Mobile App"
+ORD_00000035,"Mobile App"
+ORD_00000036,"Mobile App"
+ORD_00000037,"Mobile App"
+ORD_00000038,Drive-Thru
+ORD_00000039,Drive-Thru
+ORD_00000040,"Mobile App"
+ORD_00000041,"Mobile App"
+ORD_00000042,Kiosk
+ORD_00000043,Drive-Thru
+ORD_00000044,"Mobile App"
+ORD_00000045,"In-Store Cashier"
+ORD_00000046,"Mobile App"
+ORD_00000047,"In-Store Cashier"
+ORD_00000048,"In-Store Cashier"
+ORD_00000049,Kiosk
+ORD_00000050,"In-Store Cashier"
+ORD_00000051,"In-Store Cashier"
+ORD_00000052,"In-Store Cashier"
+ORD_00000053,"Mobile App"
+ORD_00000054,"In-Store Cashier"
+ORD_00000055,Kiosk
+ORD_00000056,Drive-Thru
+ORD_00000057,"In-Store Cashier"
+ORD_00000058,Kiosk
+ORD_00000059,"Mobile App"
+ORD_00000060,"In-Store Cashier"
+ORD_00000061,"Mobile App"
+ORD_00000062,Kiosk
+ORD_00000063,"Mobile App"
+ORD_00000064,"Mobile App"
+ORD_00000065,"Mobile App"
+ORD_00000066,"In-Store Cashier"
+ORD_00000067,"In-Store Cashier"
+ORD_00000068,"Mobile App"
+ORD_00000069,Drive-Thru
+ORD_00000070,"Mobile App"
+ORD_00000071,"Mobile App"
+ORD_00000072,"In-Store Cashier"
+ORD_00000073,Drive-Thru
+ORD_00000074,"In-Store Cashier"
+ORD_00000075,"Mobile App"
+ORD_00000076,Drive-Thru
+ORD_00000077,"Mobile App"
+ORD_00000078,"Mobile App"
+ORD_00000079,Kiosk
+ORD_00000080,"Mobile App"
+ORD_00000081,"Mobile App"
+ORD_00000082,"Mobile App"
+ORD_00000083,"Mobile App"
+ORD_00000084,"Mobile App"
+ORD_00000085,"Mobile App"
+ORD_00000086,Drive-Thru
+ORD_00000087,"In-Store Cashier"
+ORD_00000088,"Mobile App"
+ORD_00000089,"Mobile App"
+ORD_00000090,Drive-Thru
+ORD_00000091,"Mobile App"
+ORD_00000092,Drive-Thru
+ORD_00000093,"In-Store Cashier"
+ORD_00000094,"Mobile App"
+ORD_00000095,Drive-Thru
+ORD_00000096,"Mobile App"
+ORD_00000097,Drive-Thru
+ORD_00000098,"Mobile App"
+ORD_00000099,"In-Store Cashier"
+ORD_00000100,Drive-Thru
+ORD_00000101,"Mobile App"
+ORD_00000102,Drive-Thru
+ORD_00000103,"In-Store Cashier"
+ORD_00000104,Drive-Thru
+ORD_00000105,"Mobile App"
+ORD_00000106,"In-Store Cashier"
+ORD_00000107,Drive-Thru
+ORD_00000108,Kiosk
+ORD_00000109,"Mobile App"
+ORD_00000110,"Mobile App"
+ORD_00000111,Drive-Thru
+ORD_00000112,"Mobile App"
+ORD_00000113,Drive-Thru
+ORD_00000114,"Mobile App"
+ORD_00000115,"Mobile App"
+ORD_00000116,"Mobile App"
+ORD_00000117,"Mobile App"
+ORD_00000118,"In-Store Cashier"
+ORD_00000119,"In-Store Cashier"
+ORD_00000120,Drive-Thru
+ORD_00000121,"Mobile App"
+ORD_00000122,Drive-Thru
+ORD_00000123,Drive-Thru
+ORD_00000124,Drive-Thru
+ORD_00000125,"Mobile App"
+ORD_00000126,"In-Store Cashier"
+ORD_00000127,"Mobile App"
+ORD_00000128,"Mobile App"
+ORD_00000129,"Mobile App"
+ORD_00000130,Drive-Thru
+ORD_00000131,"Mobile App"
+ORD_00000132,Drive-Thru
+ORD_00000133,"In-Store Cashier"
+ORD_00000134,"In-Store Cashier"
+ORD_00000135,"Mobile App"
+ORD_00000136,"In-Store Cashier"
+ORD_00000137,"Mobile App"
+ORD_00000138,"In-Store Cashier"
+ORD_00000139,Drive-Thru
+ORD_00000140,Drive-Thru
+ORD_00000141,"Mobile App"
+ORD_00000142,Drive-Thru
+ORD_00000143,"Mobile App"
+ORD_00000144,"Mobile App"
+ORD_00000145,Drive-Thru
+ORD_00000146,"In-Store Cashier"
+ORD_00000147,"In-Store Cashier"
+ORD_00000148,"In-Store Cashier"
+ORD_00000149,Kiosk
+ORD_00000150,"Mobile App"
+ORD_00000151,"Mobile App"
+ORD_00000152,"In-Store Cashier"
+ORD_00000153,"Mobile App"
+ORD_00000154,"Mobile App"
+ORD_00000155,"Mobile App"
+ORD_00000156,Drive-Thru
+ORD_00000157,"Mobile App"
+ORD_00000158,Drive-Thru
+ORD_00000159,"In-Store Cashier"
+ORD_00000160,"Mobile App"
+ORD_00000161,Drive-Thru
+ORD_00000162,"Mobile App"
+ORD_00000163,"Mobile App"
+ORD_00000164,"Mobile App"
+ORD_00000165,Drive-Thru
+ORD_00000166,Drive-Thru
+ORD_00000167,"Mobile App"
+ORD_00000168,"Mobile App"
+ORD_00000169,"In-Store Cashier"
+ORD_00000170,Drive-Thru
+ORD_00000171,"Mobile App"
+ORD_00000172,"In-Store Cashier"
+ORD_00000173,Drive-Thru
+ORD_00000174,"In-Store Cashier"
+ORD_00000175,"Mobile App"
+ORD_00000176,"Mobile App"
+ORD_00000177,Drive-Thru
+ORD_00000178,Drive-Thru
+ORD_00000179,"In-Store Cashier"
+ORD_00000180,"Mobile App"
+ORD_00000181,"In-Store Cashier"
+ORD_00000182,Drive-Thru
+ORD_00000183,"Mobile App"
+ORD_00000184,"Mobile App"
+ORD_00000185,"Mobile App"
+ORD_00000186,Drive-Thru
+ORD_00000187,Drive-Thru
+ORD_00000188,Drive-Thru
+ORD_00000189,Drive-Thru
+ORD_00000190,"Mobile App"
+ORD_00000191,Drive-Thru
+ORD_00000192,"In-Store Cashier"
+ORD_00000193,Drive-Thru
+ORD_00000194,"Mobile App"
+ORD_00000195,"Mobile App"
+ORD_00000196,Drive-Thru
+ORD_00000197,"Mobile App"
+ORD_00000198,"Mobile App"
+ORD_00000199,"Mobile App"
+ORD_00000200,"Mobile App"
+ORD_00000201,Kiosk
+ORD_00000202,Drive-Thru
+ORD_00000203,"Mobile App"
+ORD_00000204,"In-Store Cashier"
+ORD_00000205,Drive-Thru
+ORD_00000206,"In-Store Cashier"
+ORD_00000207,"Mobile App"
+ORD_00000208,Drive-Thru
+ORD_00000209,"Mobile App"
+ORD_00000210,"Mobile App"
+ORD_00000211,"Mobile App"
+ORD_00000212,Kiosk
+ORD_00000213,"Mobile App"
+ORD_00000214,Drive-Thru
+ORD_00000215,"Mobile App"
+ORD_00000216,"In-Store Cashier"
+ORD_00000217,Drive-Thru
+ORD_00000218,Drive-Thru
+ORD_00000219,"In-Store Cashier"
+ORD_00000220,"Mobile App"
+ORD_00000221,Kiosk
+ORD_00000222,Drive-Thru
+ORD_00000223,"Mobile App"
+ORD_00000224,Drive-Thru
+ORD_00000225,"Mobile App"
+ORD_00000226,"In-Store Cashier"
+ORD_00000227,Drive-Thru
+ORD_00000228,"In-Store Cashier"
+ORD_00000229,Drive-Thru
+ORD_00000230,"Mobile App"
+ORD_00000231,"Mobile App"
+ORD_00000232,"Mobile App"
+ORD_00000233,Drive-Thru
+ORD_00000234,"Mobile App"
+ORD_00000235,"Mobile App"
+ORD_00000236,Drive-Thru
+ORD_00000237,"In-Store Cashier"
+ORD_00000238,"In-Store Cashier"
+ORD_00000239,"In-Store Cashier"
+ORD_00000240,"Mobile App"
+ORD_00000241,Kiosk
+ORD_00000242,Drive-Thru
+ORD_00000243,"Mobile App"
+ORD_00000244,"Mobile App"
+ORD_00000245,"Mobile App"
+ORD_00000246,"In-Store Cashier"
+ORD_00000247,"Mobile App"
+ORD_00000248,"In-Store Cashier"
+ORD_00000249,"In-Store Cashier"
+ORD_00000250,"In-Store Cashier"
+ORD_00000251,Drive-Thru
+ORD_00000252,"In-Store Cashier"
+ORD_00000253,Drive-Thru
+ORD_00000254,"In-Store Cashier"
+ORD_00000255,"Mobile App"
+ORD_00000256,"Mobile App"
+ORD_00000257,"Mobile App"
+ORD_00000258,Drive-Thru
+ORD_00000259,"Mobile App"
+ORD_00000260,"In-Store Cashier"
+ORD_00000261,"In-Store Cashier"
+ORD_00000262,Drive-Thru
+ORD_00000263,"In-Store Cashier"
+ORD_00000264,Drive-Thru
+ORD_00000265,"Mobile App"
+ORD_00000266,Drive-Thru
+ORD_00000267,Kiosk
+ORD_00000268,"Mobile App"
+ORD_00000269,"Mobile App"
+ORD_00000270,Drive-Thru
+ORD_00000271,Drive-Thru
+ORD_00000272,"Mobile App"
+ORD_00000273,"In-Store Cashier"
+ORD_00000274,Drive-Thru
+ORD_00000275,"Mobile App"
+ORD_00000276,"Mobile App"
+ORD_00000277,Drive-Thru
+ORD_00000278,"Mobile App"
+ORD_00000279,Drive-Thru
+ORD_00000280,"Mobile App"
+ORD_00000281,Drive-Thru
+ORD_00000282,Kiosk
+ORD_00000283,"Mobile App"
+ORD_00000284,Drive-Thru
+ORD_00000285,Drive-Thru
+ORD_00000286,Drive-Thru
+ORD_00000287,Drive-Thru
+ORD_00000288,Drive-Thru
+ORD_00000289,"Mobile App"
+ORD_00000290,"In-Store Cashier"
+ORD_00000291,Drive-Thru
+ORD_00000292,Drive-Thru
+ORD_00000293,Drive-Thru
+ORD_00000294,"Mobile App"
+ORD_00000295,"Mobile App"
+ORD_00000296,"Mobile App"
+ORD_00000297,"In-Store Cashier"
+ORD_00000298,Kiosk
+ORD_00000299,"Mobile App"
+ORD_00000300,Drive-Thru
+ORD_00000301,"Mobile App"
+ORD_00000302,Drive-Thru
+ORD_00000303,"Mobile App"
+ORD_00000304,"In-Store Cashier"
+ORD_00000305,"In-Store Cashier"
+ORD_00000306,Drive-Thru
+ORD_00000307,Drive-Thru
+ORD_00000308,"In-Store Cashier"
+ORD_00000309,"In-Store Cashier"
+ORD_00000310,Drive-Thru
+ORD_00000311,"In-Store Cashier"
+ORD_00000312,"Mobile App"
+ORD_00000313,"In-Store Cashier"
+ORD_00000314,Drive-Thru
+ORD_00000315,Drive-Thru
+ORD_00000316,"Mobile App"
+ORD_00000317,"In-Store Cashier"
+ORD_00000318,Drive-Thru
+ORD_00000319,"Mobile App"
+ORD_00000320,"Mobile App"
+ORD_00000321,"Mobile App"
+ORD_00000322,Drive-Thru
+ORD_00000323,Drive-Thru
+ORD_00000324,"Mobile App"
+ORD_00000325,"Mobile App"
+ORD_00000326,Drive-Thru
+ORD_00000327,"Mobile App"
+ORD_00000328,Drive-Thru
+ORD_00000329,"In-Store Cashier"
+ORD_00000330,Drive-Thru
+ORD_00000331,Drive-Thru
+ORD_00000332,"Mobile App"
+ORD_00000333,"In-Store Cashier"
+ORD_00000334,"Mobile App"
+ORD_00000335,"Mobile App"
+ORD_00000336,"In-Store Cashier"
+ORD_00000337,Drive-Thru
+ORD_00000338,Drive-Thru
+ORD_00000339,"Mobile App"
+ORD_00000340,"Mobile App"
+ORD_00000341,Drive-Thru
+ORD_00000342,"In-Store Cashier"
+ORD_00000343,"Mobile App"
+ORD_00000344,Drive-Thru
+ORD_00000345,Drive-Thru
+ORD_00000346,Drive-Thru
+ORD_00000347,Drive-Thru
+ORD_00000348,Drive-Thru
+ORD_00000349,"In-Store Cashier"
+ORD_00000350,"Mobile App"
+ORD_00000351,"Mobile App"
+ORD_00000352,Drive-Thru
+ORD_00000353,Drive-Thru
+ORD_00000354,"Mobile App"
+ORD_00000355,"Mobile App"
+ORD_00000356,"In-Store Cashier"
+ORD_00000357,"Mobile App"
+ORD_00000358,Drive-Thru
+ORD_00000359,"In-Store Cashier"
+ORD_00000360,Kiosk
+ORD_00000361,"Mobile App"
+ORD_00000362,"In-Store Cashier"
+ORD_00000363,"In-Store Cashier"
+ORD_00000364,"Mobile App"
+ORD_00000365,"Mobile App"
+ORD_00000366,"Mobile App"
+ORD_00000367,Drive-Thru
+ORD_00000368,"Mobile App"
+ORD_00000369,Kiosk
+ORD_00000370,"Mobile App"
+ORD_00000371,"Mobile App"
+ORD_00000372,"Mobile App"
+ORD_00000373,Kiosk
+ORD_00000374,Drive-Thru
+ORD_00000375,"Mobile App"
+ORD_00000376,Drive-Thru
+ORD_00000377,Drive-Thru
+ORD_00000378,Kiosk
+ORD_00000379,"Mobile App"
+ORD_00000380,"In-Store Cashier"
+ORD_00000381,"In-Store Cashier"
+ORD_00000382,"Mobile App"
+ORD_00000383,Drive-Thru
+ORD_00000384,"Mobile App"
+ORD_00000385,"In-Store Cashier"
+ORD_00000386,Drive-Thru
+ORD_00000387,Drive-Thru
+ORD_00000388,"Mobile App"
+ORD_00000389,"Mobile App"
+ORD_00000390,"In-Store Cashier"
+ORD_00000391,Drive-Thru
+ORD_00000392,"Mobile App"
+ORD_00000393,"Mobile App"
+ORD_00000394,"In-Store Cashier"
+ORD_00000395,"In-Store Cashier"
+ORD_00000396,Kiosk
+ORD_00000397,Drive-Thru
+ORD_00000398,Drive-Thru
+ORD_00000399,Drive-Thru
+ORD_00000400,"Mobile App"
+ORD_00000401,Drive-Thru
+ORD_00000402,"In-Store Cashier"
+ORD_00000403,"Mobile App"
+ORD_00000404,"In-Store Cashier"
+ORD_00000405,"Mobile App"
+ORD_00000406,"Mobile App"
+ORD_00000407,Kiosk
+ORD_00000408,"In-Store Cashier"
+ORD_00000409,"Mobile App"
+ORD_00000410,"Mobile App"
+ORD_00000411,Drive-Thru
+ORD_00000412,Drive-Thru
+ORD_00000413,"Mobile App"
+ORD_00000414,Drive-Thru
+ORD_00000415,"Mobile App"
+ORD_00000416,"In-Store Cashier"
+ORD_00000417,"Mobile App"
+ORD_00000418,"Mobile App"
+ORD_00000419,Drive-Thru
+ORD_00000420,"Mobile App"
+ORD_00000421,"Mobile App"
+ORD_00000422,"Mobile App"
+ORD_00000423,Drive-Thru
+ORD_00000424,"Mobile App"
+ORD_00000425,"Mobile App"
+ORD_00000426,Drive-Thru
+ORD_00000427,Drive-Thru
+ORD_00000428,"Mobile App"
+ORD_00000429,"Mobile App"
+ORD_00000430,"Mobile App"
+ORD_00000431,"Mobile App"
+ORD_00000432,"In-Store Cashier"
+ORD_00000433,"Mobile App"
+ORD_00000434,"Mobile App"
+ORD_00000435,Drive-Thru
+ORD_00000436,"In-Store Cashier"
+ORD_00000437,Drive-Thru
+ORD_00000438,Drive-Thru
+ORD_00000439,"Mobile App"
+ORD_00000440,Drive-Thru
+ORD_00000441,Drive-Thru
+ORD_00000442,Drive-Thru
+ORD_00000443,Drive-Thru
+ORD_00000444,"Mobile App"
+ORD_00000445,Drive-Thru
+ORD_00000446,"Mobile App"
+ORD_00000447,"In-Store Cashier"
+ORD_00000448,"Mobile App"
+ORD_00000449,"In-Store Cashier"
+ORD_00000450,Kiosk
+ORD_00000451,"In-Store Cashier"
+ORD_00000452,Drive-Thru
+ORD_00000453,"Mobile App"
+ORD_00000454,"Mobile App"
+ORD_00000455,"Mobile App"
+ORD_00000456,Drive-Thru
+ORD_00000457,"Mobile App"
+ORD_00000458,"Mobile App"
+ORD_00000459,"In-Store Cashier"
+ORD_00000460,Drive-Thru
+ORD_00000461,"Mobile App"
+ORD_00000462,"Mobile App"
+ORD_00000463,"Mobile App"
+ORD_00000464,Drive-Thru
+ORD_00000465,"Mobile App"
+ORD_00000466,"Mobile App"
+ORD_00000467,Kiosk
+ORD_00000468,Drive-Thru
+ORD_00000469,Kiosk
+ORD_00000470,"In-Store Cashier"
+ORD_00000471,"Mobile App"
+ORD_00000472,Kiosk
+ORD_00000473,"In-Store Cashier"
+ORD_00000474,Kiosk
+ORD_00000475,"Mobile App"
+ORD_00000476,"In-Store Cashier"
+ORD_00000477,"In-Store Cashier"
+ORD_00000478,Drive-Thru
+ORD_00000479,Drive-Thru
+ORD_00000480,Drive-Thru
+ORD_00000481,Drive-Thru
+ORD_00000482,"Mobile App"
+ORD_00000483,"Mobile App"
+ORD_00000484,Kiosk
+ORD_00000485,"In-Store Cashier"
+ORD_00000486,"Mobile App"
+ORD_00000487,Kiosk
+ORD_00000488,Drive-Thru
+ORD_00000489,"Mobile App"
+ORD_00000490,"In-Store Cashier"
+ORD_00000491,"In-Store Cashier"
+ORD_00000492,Kiosk
+ORD_00000493,Kiosk
+ORD_00000494,Kiosk
+ORD_00000495,"Mobile App"
+ORD_00000496,"Mobile App"
+ORD_00000497,Drive-Thru
+ORD_00000498,"Mobile App"
+ORD_00000499,"In-Store Cashier"
+ORD_00000500,Drive-Thru
+ORD_00000501,Drive-Thru
+ORD_00000502,"In-Store Cashier"
+ORD_00000503,Kiosk
+ORD_00000504,"Mobile App"
+ORD_00000505,"Mobile App"
+ORD_00000506,"Mobile App"
+ORD_00000507,Drive-Thru
+ORD_00000508,Kiosk
+ORD_00000509,Drive-Thru
+ORD_00000510,Drive-Thru
+ORD_00000511,"Mobile App"
+ORD_00000512,"Mobile App"
+ORD_00000513,"Mobile App"
+ORD_00000514,Kiosk
+ORD_00000515,Drive-Thru
+ORD_00000516,"Mobile App"
+ORD_00000517,"In-Store Cashier"
+ORD_00000518,Drive-Thru
+ORD_00000519,"Mobile App"
+ORD_00000520,"Mobile App"
+ORD_00000521,Kiosk
+ORD_00000522,Drive-Thru
+ORD_00000523,"Mobile App"
+ORD_00000524,Drive-Thru
+ORD_00000525,"In-Store Cashier"
+ORD_00000526,Drive-Thru
+ORD_00000527,Drive-Thru
+ORD_00000528,"Mobile App"
+ORD_00000529,"In-Store Cashier"
+ORD_00000530,"In-Store Cashier"
+ORD_00000531,Kiosk
+ORD_00000532,"Mobile App"
+ORD_00000533,Drive-Thru
+ORD_00000534,"Mobile App"
+ORD_00000535,Kiosk
+ORD_00000536,Drive-Thru
+ORD_00000537,Kiosk
+ORD_00000538,"In-Store Cashier"
+ORD_00000539,"Mobile App"
+ORD_00000540,"Mobile App"
+ORD_00000541,Drive-Thru
+ORD_00000542,Kiosk
+ORD_00000543,"Mobile App"
+ORD_00000544,Kiosk
+ORD_00000545,Drive-Thru
+ORD_00000546,"Mobile App"
+ORD_00000547,"Mobile App"
+ORD_00000548,"In-Store Cashier"
+ORD_00000549,Drive-Thru
+ORD_00000550,Drive-Thru
+ORD_00000551,"Mobile App"
+ORD_00000552,"In-Store Cashier"
+ORD_00000553,"Mobile App"
+ORD_00000554,"In-Store Cashier"
+ORD_00000555,"Mobile App"
+ORD_00000556,"In-Store Cashier"
+ORD_00000557,Drive-Thru
+ORD_00000558,"Mobile App"
+ORD_00000559,Drive-Thru
+ORD_00000560,"Mobile App"
+ORD_00000561,"Mobile App"
+ORD_00000562,"Mobile App"
+ORD_00000563,"Mobile App"
+ORD_00000564,Drive-Thru
+ORD_00000565,"Mobile App"
+ORD_00000566,"In-Store Cashier"
+ORD_00000567,Drive-Thru
+ORD_00000568,Drive-Thru
+ORD_00000569,Drive-Thru
+ORD_00000570,"In-Store Cashier"
+ORD_00000571,"Mobile App"
+ORD_00000572,"Mobile App"
+ORD_00000573,"Mobile App"
+ORD_00000574,"Mobile App"
+ORD_00000575,Drive-Thru
+ORD_00000576,"Mobile App"
+ORD_00000577,Drive-Thru
+ORD_00000578,"In-Store Cashier"
+ORD_00000579,"In-Store Cashier"
+ORD_00000580,"In-Store Cashier"
+ORD_00000581,Kiosk
+ORD_00000582,"Mobile App"
+ORD_00000583,"Mobile App"
+ORD_00000584,"In-Store Cashier"
+ORD_00000585,Kiosk
+ORD_00000586,"Mobile App"
+ORD_00000587,Drive-Thru
+ORD_00000588,Kiosk
+ORD_00000589,"In-Store Cashier"
+ORD_00000590,"Mobile App"
+ORD_00000591,Drive-Thru
+ORD_00000592,Drive-Thru
+ORD_00000593,"In-Store Cashier"
+ORD_00000594,"In-Store Cashier"
+ORD_00000595,"Mobile App"
+ORD_00000596,"Mobile App"
+ORD_00000597,"Mobile App"
+ORD_00000598,"Mobile App"
+ORD_00000599,Drive-Thru
+ORD_00000600,Drive-Thru
+ORD_00000601,Drive-Thru
+ORD_00000602,Drive-Thru
+ORD_00000603,"Mobile App"
+ORD_00000604,"Mobile App"
+ORD_00000605,"Mobile App"
+ORD_00000606,"Mobile App"
+ORD_00000607,"Mobile App"
+ORD_00000608,"In-Store Cashier"
+ORD_00000609,"In-Store Cashier"
+ORD_00000610,Drive-Thru
+ORD_00000611,"Mobile App"
+ORD_00000612,Drive-Thru
+ORD_00000613,"In-Store Cashier"
+ORD_00000614,"Mobile App"
+ORD_00000615,"Mobile App"
+ORD_00000616,"Mobile App"
+ORD_00000617,"Mobile App"
+ORD_00000618,Drive-Thru
+ORD_00000619,"Mobile App"
+ORD_00000620,"In-Store Cashier"
+ORD_00000621,"In-Store Cashier"
+ORD_00000622,Kiosk
+ORD_00000623,"Mobile App"
+ORD_00000624,Drive-Thru
+ORD_00000625,"Mobile App"
+ORD_00000626,Drive-Thru
+ORD_00000627,"Mobile App"
+ORD_00000628,Drive-Thru
+ORD_00000629,Drive-Thru
+ORD_00000630,Drive-Thru
+ORD_00000631,Drive-Thru
+ORD_00000632,"Mobile App"
+ORD_00000633,"Mobile App"
+ORD_00000634,"Mobile App"
+ORD_00000635,Drive-Thru
+ORD_00000636,"Mobile App"
+ORD_00000637,"Mobile App"
+ORD_00000638,"Mobile App"
+ORD_00000639,Drive-Thru
+ORD_00000640,"Mobile App"
+ORD_00000641,"Mobile App"
+ORD_00000642,"Mobile App"
+ORD_00000643,Drive-Thru
+ORD_00000644,"In-Store Cashier"
+ORD_00000645,"Mobile App"
+ORD_00000646,Kiosk
+ORD_00000647,"In-Store Cashier"
+ORD_00000648,Drive-Thru
+ORD_00000649,"In-Store Cashier"
+ORD_00000650,Drive-Thru
+ORD_00000651,Drive-Thru
+ORD_00000652,Drive-Thru
+ORD_00000653,"Mobile App"
+ORD_00000654,Drive-Thru
+ORD_00000655,Drive-Thru
+ORD_00000656,Drive-Thru
+ORD_00000657,"In-Store Cashier"
+ORD_00000658,"Mobile App"
+ORD_00000659,"Mobile App"
+ORD_00000660,"Mobile App"
+ORD_00000661,"Mobile App"
+ORD_00000662,Drive-Thru
+ORD_00000663,Drive-Thru
+ORD_00000664,"Mobile App"
+ORD_00000665,"In-Store Cashier"
+ORD_00000666,Drive-Thru
+ORD_00000667,"Mobile App"
+ORD_00000668,"Mobile App"
+ORD_00000669,Drive-Thru
+ORD_00000670,"Mobile App"
+ORD_00000671,Drive-Thru
+ORD_00000672,Drive-Thru
+ORD_00000673,Drive-Thru
+ORD_00000674,"Mobile App"
+ORD_00000675,Drive-Thru
+ORD_00000676,Drive-Thru
+ORD_00000677,"Mobile App"
+ORD_00000678,Drive-Thru
+ORD_00000679,"Mobile App"
+ORD_00000680,Drive-Thru
+ORD_00000681,Drive-Thru
+ORD_00000682,"Mobile App"
+ORD_00000683,Drive-Thru
+ORD_00000684,Drive-Thru
+ORD_00000685,"In-Store Cashier"
+ORD_00000686,Drive-Thru
+ORD_00000687,Drive-Thru
+ORD_00000688,Drive-Thru
+ORD_00000689,Drive-Thru
+ORD_00000690,"Mobile App"
+ORD_00000691,"In-Store Cashier"
+ORD_00000692,Kiosk
+ORD_00000693,"Mobile App"
+ORD_00000694,"Mobile App"
+ORD_00000695,Drive-Thru
+ORD_00000696,"Mobile App"
+ORD_00000697,Drive-Thru
+ORD_00000698,Drive-Thru
+ORD_00000699,Drive-Thru
+ORD_00000700,"In-Store Cashier"
+ORD_00000701,Kiosk
+ORD_00000702,"In-Store Cashier"
+ORD_00000703,Drive-Thru
+ORD_00000704,"In-Store Cashier"
+ORD_00000705,"Mobile App"
+ORD_00000706,"In-Store Cashier"
+ORD_00000707,Drive-Thru
+ORD_00000708,Drive-Thru
+ORD_00000709,"Mobile App"
+ORD_00000710,"In-Store Cashier"
+ORD_00000711,"In-Store Cashier"
+ORD_00000712,Drive-Thru
+ORD_00000713,"Mobile App"
+ORD_00000714,"Mobile App"
+ORD_00000715,"In-Store Cashier"
+ORD_00000716,"Mobile App"
+ORD_00000717,Drive-Thru
+ORD_00000718,Drive-Thru
+ORD_00000719,"Mobile App"
+ORD_00000720,"Mobile App"
+ORD_00000721,"Mobile App"
+ORD_00000722,"Mobile App"
+ORD_00000723,Kiosk
+ORD_00000724,"In-Store Cashier"
+ORD_00000725,"Mobile App"
+ORD_00000726,"Mobile App"
+ORD_00000727,"Mobile App"
+ORD_00000728,"Mobile App"
+ORD_00000729,Drive-Thru
+ORD_00000730,Drive-Thru
+ORD_00000731,"Mobile App"
+ORD_00000732,"Mobile App"
+ORD_00000733,Drive-Thru
+ORD_00000734,"In-Store Cashier"
+ORD_00000735,"In-Store Cashier"
+ORD_00000736,"In-Store Cashier"
+ORD_00000737,"Mobile App"
+ORD_00000738,Drive-Thru
+ORD_00000739,"In-Store Cashier"
+ORD_00000740,"In-Store Cashier"
+ORD_00000741,"Mobile App"
+ORD_00000742,"In-Store Cashier"
+ORD_00000743,"In-Store Cashier"
+ORD_00000744,"Mobile App"
+ORD_00000745,"In-Store Cashier"
+ORD_00000746,Drive-Thru
+ORD_00000747,Drive-Thru
+ORD_00000748,"Mobile App"
+ORD_00000749,"Mobile App"
+ORD_00000750,Kiosk
+ORD_00000751,"In-Store Cashier"
+ORD_00000752,"Mobile App"
+ORD_00000753,Drive-Thru
+ORD_00000754,"In-Store Cashier"
+ORD_00000755,"Mobile App"
+ORD_00000756,"In-Store Cashier"
+ORD_00000757,"In-Store Cashier"
+ORD_00000758,"In-Store Cashier"
+ORD_00000759,"In-Store Cashier"
+ORD_00000760,Kiosk
+ORD_00000761,"Mobile App"
+ORD_00000762,Drive-Thru
+ORD_00000763,"Mobile App"
+ORD_00000764,"Mobile App"
+ORD_00000765,"In-Store Cashier"
+ORD_00000766,Drive-Thru
+ORD_00000767,"Mobile App"
+ORD_00000768,"Mobile App"
+ORD_00000769,Kiosk
+ORD_00000770,"In-Store Cashier"
+ORD_00000771,"Mobile App"
+ORD_00000772,"Mobile App"
+ORD_00000773,"Mobile App"
+ORD_00000774,"In-Store Cashier"
+ORD_00000775,"In-Store Cashier"
+ORD_00000776,Drive-Thru
+ORD_00000777,"In-Store Cashier"
+ORD_00000778,"Mobile App"
+ORD_00000779,Drive-Thru
+ORD_00000780,"In-Store Cashier"
+ORD_00000781,"Mobile App"
+ORD_00000782,"Mobile App"
+ORD_00000783,"In-Store Cashier"
+ORD_00000784,"In-Store Cashier"
+ORD_00000785,Drive-Thru
+ORD_00000786,Drive-Thru
+ORD_00000787,"Mobile App"
+ORD_00000788,"In-Store Cashier"
+ORD_00000789,"In-Store Cashier"
+ORD_00000790,Kiosk
+ORD_00000791,Drive-Thru
+ORD_00000792,"Mobile App"
+ORD_00000793,Drive-Thru
+ORD_00000794,"Mobile App"
+ORD_00000795,Drive-Thru
+ORD_00000796,"Mobile App"
+ORD_00000797,"Mobile App"
+ORD_00000798,"In-Store Cashier"
+ORD_00000799,"In-Store Cashier"
+ORD_00000800,Kiosk
+ORD_00000801,"In-Store Cashier"
+ORD_00000802,Kiosk
+ORD_00000803,Drive-Thru
+ORD_00000804,"Mobile App"
+ORD_00000805,"Mobile App"
+ORD_00000806,"Mobile App"
+ORD_00000807,Drive-Thru
+ORD_00000808,Drive-Thru
+ORD_00000809,"In-Store Cashier"
+ORD_00000810,Kiosk
+ORD_00000811,"Mobile App"
+ORD_00000812,Drive-Thru
+ORD_00000813,"In-Store Cashier"
+ORD_00000814,"Mobile App"
+ORD_00000815,"Mobile App"
+ORD_00000816,Drive-Thru
+ORD_00000817,"In-Store Cashier"
+ORD_00000818,"In-Store Cashier"
+ORD_00000819,"Mobile App"
+ORD_00000820,Drive-Thru
+ORD_00000821,"In-Store Cashier"
+ORD_00000822,Drive-Thru
+ORD_00000823,Drive-Thru
+ORD_00000824,"In-Store Cashier"
+ORD_00000825,Kiosk
+ORD_00000826,"In-Store Cashier"
+ORD_00000827,"Mobile App"
+ORD_00000828,Drive-Thru
+ORD_00000829,"In-Store Cashier"
+ORD_00000830,Drive-Thru
+ORD_00000831,Kiosk
+ORD_00000832,"In-Store Cashier"
+ORD_00000833,"In-Store Cashier"
+ORD_00000834,"In-Store Cashier"
+ORD_00000835,Drive-Thru
+ORD_00000836,"Mobile App"
+ORD_00000837,Drive-Thru
+ORD_00000838,Drive-Thru
+ORD_00000839,Drive-Thru
+ORD_00000840,"Mobile App"
+ORD_00000841,Kiosk
+ORD_00000842,Drive-Thru
+ORD_00000843,Drive-Thru
+ORD_00000844,"In-Store Cashier"
+ORD_00000845,"Mobile App"
+ORD_00000846,"Mobile App"
+ORD_00000847,Drive-Thru
+ORD_00000848,"Mobile App"
+ORD_00000849,"In-Store Cashier"
+ORD_00000850,"Mobile App"
+ORD_00000851,"Mobile App"
+ORD_00000852,"Mobile App"
+ORD_00000853,"Mobile App"
+ORD_00000854,Drive-Thru
+ORD_00000855,"Mobile App"
+ORD_00000856,"Mobile App"
+ORD_00000857,"In-Store Cashier"
+ORD_00000858,"Mobile App"
+ORD_00000859,"Mobile App"
+ORD_00000860,"In-Store Cashier"
+ORD_00000861,Drive-Thru
+ORD_00000862,"Mobile App"
+ORD_00000863,"In-Store Cashier"
+ORD_00000864,Drive-Thru
+ORD_00000865,"In-Store Cashier"
+ORD_00000866,Drive-Thru
+ORD_00000867,Drive-Thru
+ORD_00000868,"Mobile App"
+ORD_00000869,Kiosk
+ORD_00000870,Kiosk
+ORD_00000871,"Mobile App"
+ORD_00000872,Drive-Thru
+ORD_00000873,"In-Store Cashier"
+ORD_00000874,Kiosk
+ORD_00000875,"In-Store Cashier"
+ORD_00000876,"Mobile App"
+ORD_00000877,"Mobile App"
+ORD_00000878,"Mobile App"
+ORD_00000879,Drive-Thru
+ORD_00000880,Drive-Thru
+ORD_00000881,"Mobile App"
+ORD_00000882,"Mobile App"
+ORD_00000883,Drive-Thru
+ORD_00000884,Drive-Thru
+ORD_00000885,"Mobile App"
+ORD_00000886,Drive-Thru
+ORD_00000887,"Mobile App"
+ORD_00000888,"Mobile App"
+ORD_00000889,"In-Store Cashier"
+ORD_00000890,Drive-Thru
+ORD_00000891,"Mobile App"
+ORD_00000892,"Mobile App"
+ORD_00000893,"In-Store Cashier"
+ORD_00000894,"Mobile App"
+ORD_00000895,Drive-Thru
+ORD_00000896,"In-Store Cashier"
+ORD_00000897,"Mobile App"
+ORD_00000898,"Mobile App"
+ORD_00000899,Kiosk
+ORD_00000900,"Mobile App"
+ORD_00000901,Drive-Thru
+ORD_00000902,"In-Store Cashier"
+ORD_00000903,"Mobile App"
+ORD_00000904,"In-Store Cashier"
+ORD_00000905,"In-Store Cashier"
+ORD_00000906,Drive-Thru
+ORD_00000907,Drive-Thru
+ORD_00000908,Drive-Thru
+ORD_00000909,"Mobile App"
+ORD_00000910,"Mobile App"
+ORD_00000911,Drive-Thru
+ORD_00000912,"In-Store Cashier"
+ORD_00000913,"Mobile App"
+ORD_00000914,"Mobile App"
+ORD_00000915,"Mobile App"
+ORD_00000916,Drive-Thru
+ORD_00000917,"Mobile App"
+ORD_00000918,"Mobile App"
+ORD_00000919,"In-Store Cashier"
+ORD_00000920,Drive-Thru
+ORD_00000921,"In-Store Cashier"
+ORD_00000922,Drive-Thru
+ORD_00000923,Drive-Thru
+ORD_00000924,"Mobile App"
+ORD_00000925,"In-Store Cashier"
+ORD_00000926,"Mobile App"
+ORD_00000927,Kiosk
+ORD_00000928,"Mobile App"
+ORD_00000929,"Mobile App"
+ORD_00000930,"Mobile App"
+ORD_00000931,"Mobile App"
+ORD_00000932,"Mobile App"
+ORD_00000933,"Mobile App"
+ORD_00000934,"Mobile App"
+ORD_00000935,"Mobile App"
+ORD_00000936,"Mobile App"
+ORD_00000937,Drive-Thru
+ORD_00000938,"Mobile App"
+ORD_00000939,"Mobile App"
+ORD_00000940,"In-Store Cashier"
+ORD_00000941,"In-Store Cashier"
+ORD_00000942,Drive-Thru
+ORD_00000943,"Mobile App"
+ORD_00000944,"Mobile App"
+ORD_00000945,Drive-Thru
+ORD_00000946,Kiosk
+ORD_00000947,Drive-Thru
+ORD_00000948,Drive-Thru
+ORD_00000949,Drive-Thru
+ORD_00000950,"Mobile App"
+ORD_00000951,Drive-Thru
+ORD_00000952,"In-Store Cashier"
+ORD_00000953,"In-Store Cashier"
+ORD_00000954,Drive-Thru
+ORD_00000955,Drive-Thru
+ORD_00000956,Kiosk
+ORD_00000957,"In-Store Cashier"
+ORD_00000958,"Mobile App"
+ORD_00000959,Drive-Thru
+ORD_00000960,"Mobile App"
+ORD_00000961,"Mobile App"
+ORD_00000962,"Mobile App"
+ORD_00000963,"Mobile App"
+ORD_00000964,"In-Store Cashier"
+ORD_00000965,"Mobile App"
+ORD_00000966,Drive-Thru
+ORD_00000967,Drive-Thru
+ORD_00000968,"Mobile App"
+ORD_00000969,Drive-Thru
+ORD_00000970,Kiosk
+ORD_00000971,"In-Store Cashier"
+ORD_00000972,"Mobile App"
+ORD_00000973,"In-Store Cashier"
+ORD_00000974,"Mobile App"
+ORD_00000975,Drive-Thru
+ORD_00000976,"In-Store Cashier"
+ORD_00000977,"In-Store Cashier"
+ORD_00000978,"Mobile App"
+ORD_00000979,"In-Store Cashier"
+ORD_00000980,Kiosk
+ORD_00000981,"Mobile App"
+ORD_00000982,Drive-Thru
+ORD_00000983,"In-Store Cashier"
+ORD_00000984,Drive-Thru
+ORD_00000985,"Mobile App"
+ORD_00000986,"Mobile App"
+ORD_00000987,Kiosk
+ORD_00000988,"Mobile App"
+ORD_00000989,"In-Store Cashier"
+ORD_00000990,Drive-Thru
+ORD_00000991,"Mobile App"
+ORD_00000992,"Mobile App"
+ORD_00000993,Drive-Thru
+ORD_00000994,Drive-Thru
+ORD_00000995,"In-Store Cashier"
+ORD_00000996,Kiosk
+ORD_00000997,Kiosk
+ORD_00000998,"Mobile App"
+ORD_00000999,"In-Store Cashier"
+ORD_00001000,Drive-Thru
