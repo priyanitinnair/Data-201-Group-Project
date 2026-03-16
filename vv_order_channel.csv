@@ -1,0 +1,1001 @@
+id,order_id,order_channel,order_ahead
+1,ORD_00000001,Drive-Thru,False
+2,ORD_00000002,"Mobile App",True
+3,ORD_00000003,Kiosk,False
+4,ORD_00000004,Drive-Thru,False
+5,ORD_00000005,Drive-Thru,False
+6,ORD_00000006,"Mobile App",False
+7,ORD_00000007,"Mobile App",True
+8,ORD_00000008,"Mobile App",False
+9,ORD_00000009,"Mobile App",True
+10,ORD_00000010,"In-Store Cashier",False
+11,ORD_00000011,"Mobile App",False
+12,ORD_00000012,"In-Store Cashier",False
+13,ORD_00000013,"Mobile App",True
+14,ORD_00000014,"Mobile App",False
+15,ORD_00000015,"Mobile App",False
+16,ORD_00000016,Drive-Thru,False
+17,ORD_00000017,Drive-Thru,False
+18,ORD_00000018,"In-Store Cashier",False
+19,ORD_00000019,Drive-Thru,False
+20,ORD_00000020,"In-Store Cashier",False
+21,ORD_00000021,Drive-Thru,False
+22,ORD_00000022,"Mobile App",True
+23,ORD_00000023,"Mobile App",False
+24,ORD_00000024,Kiosk,False
+25,ORD_00000025,Kiosk,False
+26,ORD_00000026,Drive-Thru,False
+27,ORD_00000027,Kiosk,False
+28,ORD_00000028,"In-Store Cashier",False
+29,ORD_00000029,"Mobile App",False
+30,ORD_00000030,"Mobile App",False
+31,ORD_00000031,"Mobile App",True
+32,ORD_00000032,"Mobile App",True
+33,ORD_00000033,Drive-Thru,False
+34,ORD_00000034,"Mobile App",True
+35,ORD_00000035,"Mobile App",False
+36,ORD_00000036,"Mobile App",True
+37,ORD_00000037,"Mobile App",True
+38,ORD_00000038,Drive-Thru,False
+39,ORD_00000039,Drive-Thru,False
+40,ORD_00000040,"Mobile App",False
+41,ORD_00000041,"Mobile App",True
+42,ORD_00000042,Kiosk,False
+43,ORD_00000043,Drive-Thru,False
+44,ORD_00000044,"Mobile App",False
+45,ORD_00000045,"In-Store Cashier",False
+46,ORD_00000046,"Mobile App",True
+47,ORD_00000047,"In-Store Cashier",False
+48,ORD_00000048,"In-Store Cashier",False
+49,ORD_00000049,Kiosk,False
+50,ORD_00000050,"In-Store Cashier",False
+51,ORD_00000051,"In-Store Cashier",False
+52,ORD_00000052,"In-Store Cashier",False
+53,ORD_00000053,"Mobile App",True
+54,ORD_00000054,"In-Store Cashier",False
+55,ORD_00000055,Kiosk,False
+56,ORD_00000056,Drive-Thru,False
+57,ORD_00000057,"In-Store Cashier",False
+58,ORD_00000058,Kiosk,False
+59,ORD_00000059,"Mobile App",True
+60,ORD_00000060,"In-Store Cashier",False
+61,ORD_00000061,"Mobile App",False
+62,ORD_00000062,Kiosk,False
+63,ORD_00000063,"Mobile App",True
+64,ORD_00000064,"Mobile App",True
+65,ORD_00000065,"Mobile App",False
+66,ORD_00000066,"In-Store Cashier",False
+67,ORD_00000067,"In-Store Cashier",False
+68,ORD_00000068,"Mobile App",True
+69,ORD_00000069,Drive-Thru,False
+70,ORD_00000070,"Mobile App",True
+71,ORD_00000071,"Mobile App",False
+72,ORD_00000072,"In-Store Cashier",False
+73,ORD_00000073,Drive-Thru,False
+74,ORD_00000074,"In-Store Cashier",False
+75,ORD_00000075,"Mobile App",True
+76,ORD_00000076,Drive-Thru,False
+77,ORD_00000077,"Mobile App",False
+78,ORD_00000078,"Mobile App",False
+79,ORD_00000079,Kiosk,False
+80,ORD_00000080,"Mobile App",True
+81,ORD_00000081,"Mobile App",True
+82,ORD_00000082,"Mobile App",False
+83,ORD_00000083,"Mobile App",True
+84,ORD_00000084,"Mobile App",True
+85,ORD_00000085,"Mobile App",True
+86,ORD_00000086,Drive-Thru,False
+87,ORD_00000087,"In-Store Cashier",False
+88,ORD_00000088,"Mobile App",True
+89,ORD_00000089,"Mobile App",True
+90,ORD_00000090,Drive-Thru,False
+91,ORD_00000091,"Mobile App",True
+92,ORD_00000092,Drive-Thru,False
+93,ORD_00000093,"In-Store Cashier",False
+94,ORD_00000094,"Mobile App",True
+95,ORD_00000095,Drive-Thru,False
+96,ORD_00000096,"Mobile App",True
+97,ORD_00000097,Drive-Thru,False
+98,ORD_00000098,"Mobile App",True
+99,ORD_00000099,"In-Store Cashier",False
+100,ORD_00000100,Drive-Thru,False
+101,ORD_00000101,"Mobile App",False
+102,ORD_00000102,Drive-Thru,False
+103,ORD_00000103,"In-Store Cashier",False
+104,ORD_00000104,Drive-Thru,False
+105,ORD_00000105,"Mobile App",True
+106,ORD_00000106,"In-Store Cashier",False
+107,ORD_00000107,Drive-Thru,False
+108,ORD_00000108,Kiosk,False
+109,ORD_00000109,"Mobile App",True
+110,ORD_00000110,"Mobile App",False
+111,ORD_00000111,Drive-Thru,False
+112,ORD_00000112,"Mobile App",True
+113,ORD_00000113,Drive-Thru,False
+114,ORD_00000114,"Mobile App",True
+115,ORD_00000115,"Mobile App",True
+116,ORD_00000116,"Mobile App",False
+117,ORD_00000117,"Mobile App",True
+118,ORD_00000118,"In-Store Cashier",False
+119,ORD_00000119,"In-Store Cashier",False
+120,ORD_00000120,Drive-Thru,False
+121,ORD_00000121,"Mobile App",False
+122,ORD_00000122,Drive-Thru,False
+123,ORD_00000123,Drive-Thru,False
+124,ORD_00000124,Drive-Thru,False
+125,ORD_00000125,"Mobile App",True
+126,ORD_00000126,"In-Store Cashier",False
+127,ORD_00000127,"Mobile App",False
+128,ORD_00000128,"Mobile App",True
+129,ORD_00000129,"Mobile App",True
+130,ORD_00000130,Drive-Thru,False
+131,ORD_00000131,"Mobile App",True
+132,ORD_00000132,Drive-Thru,False
+133,ORD_00000133,"In-Store Cashier",False
+134,ORD_00000134,"In-Store Cashier",False
+135,ORD_00000135,"Mobile App",True
+136,ORD_00000136,"In-Store Cashier",False
+137,ORD_00000137,"Mobile App",True
+138,ORD_00000138,"In-Store Cashier",False
+139,ORD_00000139,Drive-Thru,False
+140,ORD_00000140,Drive-Thru,False
+141,ORD_00000141,"Mobile App",False
+142,ORD_00000142,Drive-Thru,False
+143,ORD_00000143,"Mobile App",True
+144,ORD_00000144,"Mobile App",True
+145,ORD_00000145,Drive-Thru,False
+146,ORD_00000146,"In-Store Cashier",False
+147,ORD_00000147,"In-Store Cashier",False
+148,ORD_00000148,"In-Store Cashier",False
+149,ORD_00000149,Kiosk,False
+150,ORD_00000150,"Mobile App",True
+151,ORD_00000151,"Mobile App",True
+152,ORD_00000152,"In-Store Cashier",False
+153,ORD_00000153,"Mobile App",True
+154,ORD_00000154,"Mobile App",True
+155,ORD_00000155,"Mobile App",True
+156,ORD_00000156,Drive-Thru,False
+157,ORD_00000157,"Mobile App",False
+158,ORD_00000158,Drive-Thru,False
+159,ORD_00000159,"In-Store Cashier",False
+160,ORD_00000160,"Mobile App",True
+161,ORD_00000161,Drive-Thru,False
+162,ORD_00000162,"Mobile App",False
+163,ORD_00000163,"Mobile App",True
+164,ORD_00000164,"Mobile App",True
+165,ORD_00000165,Drive-Thru,False
+166,ORD_00000166,Drive-Thru,False
+167,ORD_00000167,"Mobile App",True
+168,ORD_00000168,"Mobile App",False
+169,ORD_00000169,"In-Store Cashier",False
+170,ORD_00000170,Drive-Thru,False
+171,ORD_00000171,"Mobile App",False
+172,ORD_00000172,"In-Store Cashier",False
+173,ORD_00000173,Drive-Thru,False
+174,ORD_00000174,"In-Store Cashier",False
+175,ORD_00000175,"Mobile App",True
+176,ORD_00000176,"Mobile App",True
+177,ORD_00000177,Drive-Thru,False
+178,ORD_00000178,Drive-Thru,False
+179,ORD_00000179,"In-Store Cashier",False
+180,ORD_00000180,"Mobile App",False
+181,ORD_00000181,"In-Store Cashier",False
+182,ORD_00000182,Drive-Thru,False
+183,ORD_00000183,"Mobile App",False
+184,ORD_00000184,"Mobile App",True
+185,ORD_00000185,"Mobile App",False
+186,ORD_00000186,Drive-Thru,False
+187,ORD_00000187,Drive-Thru,False
+188,ORD_00000188,Drive-Thru,False
+189,ORD_00000189,Drive-Thru,False
+190,ORD_00000190,"Mobile App",False
+191,ORD_00000191,Drive-Thru,False
+192,ORD_00000192,"In-Store Cashier",False
+193,ORD_00000193,Drive-Thru,False
+194,ORD_00000194,"Mobile App",True
+195,ORD_00000195,"Mobile App",True
+196,ORD_00000196,Drive-Thru,False
+197,ORD_00000197,"Mobile App",False
+198,ORD_00000198,"Mobile App",False
+199,ORD_00000199,"Mobile App",False
+200,ORD_00000200,"Mobile App",True
+201,ORD_00000201,Kiosk,False
+202,ORD_00000202,Drive-Thru,False
+203,ORD_00000203,"Mobile App",True
+204,ORD_00000204,"In-Store Cashier",False
+205,ORD_00000205,Drive-Thru,False
+206,ORD_00000206,"In-Store Cashier",False
+207,ORD_00000207,"Mobile App",True
+208,ORD_00000208,Drive-Thru,False
+209,ORD_00000209,"Mobile App",True
+210,ORD_00000210,"Mobile App",True
+211,ORD_00000211,"Mobile App",True
+212,ORD_00000212,Kiosk,False
+213,ORD_00000213,"Mobile App",True
+214,ORD_00000214,Drive-Thru,False
+215,ORD_00000215,"Mobile App",True
+216,ORD_00000216,"In-Store Cashier",False
+217,ORD_00000217,Drive-Thru,False
+218,ORD_00000218,Drive-Thru,False
+219,ORD_00000219,"In-Store Cashier",False
+220,ORD_00000220,"Mobile App",True
+221,ORD_00000221,Kiosk,False
+222,ORD_00000222,Drive-Thru,False
+223,ORD_00000223,"Mobile App",True
+224,ORD_00000224,Drive-Thru,False
+225,ORD_00000225,"Mobile App",True
+226,ORD_00000226,"In-Store Cashier",False
+227,ORD_00000227,Drive-Thru,False
+228,ORD_00000228,"In-Store Cashier",False
+229,ORD_00000229,Drive-Thru,False
+230,ORD_00000230,"Mobile App",True
+231,ORD_00000231,"Mobile App",True
+232,ORD_00000232,"Mobile App",True
+233,ORD_00000233,Drive-Thru,False
+234,ORD_00000234,"Mobile App",True
+235,ORD_00000235,"Mobile App",True
+236,ORD_00000236,Drive-Thru,False
+237,ORD_00000237,"In-Store Cashier",False
+238,ORD_00000238,"In-Store Cashier",False
+239,ORD_00000239,"In-Store Cashier",False
+240,ORD_00000240,"Mobile App",True
+241,ORD_00000241,Kiosk,False
+242,ORD_00000242,Drive-Thru,False
+243,ORD_00000243,"Mobile App",True
+244,ORD_00000244,"Mobile App",True
+245,ORD_00000245,"Mobile App",False
+246,ORD_00000246,"In-Store Cashier",False
+247,ORD_00000247,"Mobile App",True
+248,ORD_00000248,"In-Store Cashier",False
+249,ORD_00000249,"In-Store Cashier",False
+250,ORD_00000250,"In-Store Cashier",False
+251,ORD_00000251,Drive-Thru,False
+252,ORD_00000252,"In-Store Cashier",False
+253,ORD_00000253,Drive-Thru,False
+254,ORD_00000254,"In-Store Cashier",False
+255,ORD_00000255,"Mobile App",True
+256,ORD_00000256,"Mobile App",False
+257,ORD_00000257,"Mobile App",True
+258,ORD_00000258,Drive-Thru,False
+259,ORD_00000259,"Mobile App",True
+260,ORD_00000260,"In-Store Cashier",False
+261,ORD_00000261,"In-Store Cashier",False
+262,ORD_00000262,Drive-Thru,False
+263,ORD_00000263,"In-Store Cashier",False
+264,ORD_00000264,Drive-Thru,False
+265,ORD_00000265,"Mobile App",True
+266,ORD_00000266,Drive-Thru,False
+267,ORD_00000267,Kiosk,False
+268,ORD_00000268,"Mobile App",True
+269,ORD_00000269,"Mobile App",True
+270,ORD_00000270,Drive-Thru,False
+271,ORD_00000271,Drive-Thru,False
+272,ORD_00000272,"Mobile App",False
+273,ORD_00000273,"In-Store Cashier",False
+274,ORD_00000274,Drive-Thru,False
+275,ORD_00000275,"Mobile App",True
+276,ORD_00000276,"Mobile App",False
+277,ORD_00000277,Drive-Thru,False
+278,ORD_00000278,"Mobile App",True
+279,ORD_00000279,Drive-Thru,False
+280,ORD_00000280,"Mobile App",True
+281,ORD_00000281,Drive-Thru,False
+282,ORD_00000282,Kiosk,False
+283,ORD_00000283,"Mobile App",True
+284,ORD_00000284,Drive-Thru,False
+285,ORD_00000285,Drive-Thru,False
+286,ORD_00000286,Drive-Thru,False
+287,ORD_00000287,Drive-Thru,False
+288,ORD_00000288,Drive-Thru,False
+289,ORD_00000289,"Mobile App",True
+290,ORD_00000290,"In-Store Cashier",False
+291,ORD_00000291,Drive-Thru,False
+292,ORD_00000292,Drive-Thru,False
+293,ORD_00000293,Drive-Thru,False
+294,ORD_00000294,"Mobile App",True
+295,ORD_00000295,"Mobile App",True
+296,ORD_00000296,"Mobile App",True
+297,ORD_00000297,"In-Store Cashier",False
+298,ORD_00000298,Kiosk,False
+299,ORD_00000299,"Mobile App",False
+300,ORD_00000300,Drive-Thru,False
+301,ORD_00000301,"Mobile App",True
+302,ORD_00000302,Drive-Thru,False
+303,ORD_00000303,"Mobile App",True
+304,ORD_00000304,"In-Store Cashier",False
+305,ORD_00000305,"In-Store Cashier",False
+306,ORD_00000306,Drive-Thru,False
+307,ORD_00000307,Drive-Thru,False
+308,ORD_00000308,"In-Store Cashier",False
+309,ORD_00000309,"In-Store Cashier",False
+310,ORD_00000310,Drive-Thru,False
+311,ORD_00000311,"In-Store Cashier",False
+312,ORD_00000312,"Mobile App",True
+313,ORD_00000313,"In-Store Cashier",False
+314,ORD_00000314,Drive-Thru,False
+315,ORD_00000315,Drive-Thru,False
+316,ORD_00000316,"Mobile App",True
+317,ORD_00000317,"In-Store Cashier",False
+318,ORD_00000318,Drive-Thru,False
+319,ORD_00000319,"Mobile App",True
+320,ORD_00000320,"Mobile App",True
+321,ORD_00000321,"Mobile App",False
+322,ORD_00000322,Drive-Thru,False
+323,ORD_00000323,Drive-Thru,False
+324,ORD_00000324,"Mobile App",True
+325,ORD_00000325,"Mobile App",True
+326,ORD_00000326,Drive-Thru,False
+327,ORD_00000327,"Mobile App",True
+328,ORD_00000328,Drive-Thru,False
+329,ORD_00000329,"In-Store Cashier",False
+330,ORD_00000330,Drive-Thru,False
+331,ORD_00000331,Drive-Thru,False
+332,ORD_00000332,"Mobile App",True
+333,ORD_00000333,"In-Store Cashier",False
+334,ORD_00000334,"Mobile App",True
+335,ORD_00000335,"Mobile App",False
+336,ORD_00000336,"In-Store Cashier",False
+337,ORD_00000337,Drive-Thru,False
+338,ORD_00000338,Drive-Thru,False
+339,ORD_00000339,"Mobile App",True
+340,ORD_00000340,"Mobile App",True
+341,ORD_00000341,Drive-Thru,False
+342,ORD_00000342,"In-Store Cashier",False
+343,ORD_00000343,"Mobile App",True
+344,ORD_00000344,Drive-Thru,False
+345,ORD_00000345,Drive-Thru,False
+346,ORD_00000346,Drive-Thru,False
+347,ORD_00000347,Drive-Thru,False
+348,ORD_00000348,Drive-Thru,False
+349,ORD_00000349,"In-Store Cashier",False
+350,ORD_00000350,"Mobile App",False
+351,ORD_00000351,"Mobile App",True
+352,ORD_00000352,Drive-Thru,False
+353,ORD_00000353,Drive-Thru,False
+354,ORD_00000354,"Mobile App",True
+355,ORD_00000355,"Mobile App",True
+356,ORD_00000356,"In-Store Cashier",False
+357,ORD_00000357,"Mobile App",True
+358,ORD_00000358,Drive-Thru,False
+359,ORD_00000359,"In-Store Cashier",False
+360,ORD_00000360,Kiosk,False
+361,ORD_00000361,"Mobile App",True
+362,ORD_00000362,"In-Store Cashier",False
+363,ORD_00000363,"In-Store Cashier",False
+364,ORD_00000364,"Mobile App",False
+365,ORD_00000365,"Mobile App",True
+366,ORD_00000366,"Mobile App",True
+367,ORD_00000367,Drive-Thru,False
+368,ORD_00000368,"Mobile App",False
+369,ORD_00000369,Kiosk,False
+370,ORD_00000370,"Mobile App",True
+371,ORD_00000371,"Mobile App",True
+372,ORD_00000372,"Mobile App",False
+373,ORD_00000373,Kiosk,False
+374,ORD_00000374,Drive-Thru,False
+375,ORD_00000375,"Mobile App",True
+376,ORD_00000376,Drive-Thru,False
+377,ORD_00000377,Drive-Thru,False
+378,ORD_00000378,Kiosk,False
+379,ORD_00000379,"Mobile App",True
+380,ORD_00000380,"In-Store Cashier",False
+381,ORD_00000381,"In-Store Cashier",False
+382,ORD_00000382,"Mobile App",True
+383,ORD_00000383,Drive-Thru,False
+384,ORD_00000384,"Mobile App",True
+385,ORD_00000385,"In-Store Cashier",False
+386,ORD_00000386,Drive-Thru,False
+387,ORD_00000387,Drive-Thru,False
+388,ORD_00000388,"Mobile App",True
+389,ORD_00000389,"Mobile App",True
+390,ORD_00000390,"In-Store Cashier",False
+391,ORD_00000391,Drive-Thru,False
+392,ORD_00000392,"Mobile App",False
+393,ORD_00000393,"Mobile App",False
+394,ORD_00000394,"In-Store Cashier",False
+395,ORD_00000395,"In-Store Cashier",False
+396,ORD_00000396,Kiosk,False
+397,ORD_00000397,Drive-Thru,False
+398,ORD_00000398,Drive-Thru,False
+399,ORD_00000399,Drive-Thru,False
+400,ORD_00000400,"Mobile App",False
+401,ORD_00000401,Drive-Thru,False
+402,ORD_00000402,"In-Store Cashier",False
+403,ORD_00000403,"Mobile App",True
+404,ORD_00000404,"In-Store Cashier",False
+405,ORD_00000405,"Mobile App",True
+406,ORD_00000406,"Mobile App",False
+407,ORD_00000407,Kiosk,False
+408,ORD_00000408,"In-Store Cashier",False
+409,ORD_00000409,"Mobile App",False
+410,ORD_00000410,"Mobile App",True
+411,ORD_00000411,Drive-Thru,False
+412,ORD_00000412,Drive-Thru,False
+413,ORD_00000413,"Mobile App",True
+414,ORD_00000414,Drive-Thru,False
+415,ORD_00000415,"Mobile App",True
+416,ORD_00000416,"In-Store Cashier",False
+417,ORD_00000417,"Mobile App",True
+418,ORD_00000418,"Mobile App",True
+419,ORD_00000419,Drive-Thru,False
+420,ORD_00000420,"Mobile App",True
+421,ORD_00000421,"Mobile App",True
+422,ORD_00000422,"Mobile App",False
+423,ORD_00000423,Drive-Thru,False
+424,ORD_00000424,"Mobile App",False
+425,ORD_00000425,"Mobile App",True
+426,ORD_00000426,Drive-Thru,False
+427,ORD_00000427,Drive-Thru,False
+428,ORD_00000428,"Mobile App",True
+429,ORD_00000429,"Mobile App",True
+430,ORD_00000430,"Mobile App",True
+431,ORD_00000431,"Mobile App",False
+432,ORD_00000432,"In-Store Cashier",False
+433,ORD_00000433,"Mobile App",True
+434,ORD_00000434,"Mobile App",True
+435,ORD_00000435,Drive-Thru,False
+436,ORD_00000436,"In-Store Cashier",False
+437,ORD_00000437,Drive-Thru,False
+438,ORD_00000438,Drive-Thru,False
+439,ORD_00000439,"Mobile App",False
+440,ORD_00000440,Drive-Thru,False
+441,ORD_00000441,Drive-Thru,False
+442,ORD_00000442,Drive-Thru,False
+443,ORD_00000443,Drive-Thru,False
+444,ORD_00000444,"Mobile App",True
+445,ORD_00000445,Drive-Thru,False
+446,ORD_00000446,"Mobile App",False
+447,ORD_00000447,"In-Store Cashier",False
+448,ORD_00000448,"Mobile App",True
+449,ORD_00000449,"In-Store Cashier",False
+450,ORD_00000450,Kiosk,False
+451,ORD_00000451,"In-Store Cashier",False
+452,ORD_00000452,Drive-Thru,False
+453,ORD_00000453,"Mobile App",True
+454,ORD_00000454,"Mobile App",True
+455,ORD_00000455,"Mobile App",True
+456,ORD_00000456,Drive-Thru,False
+457,ORD_00000457,"Mobile App",True
+458,ORD_00000458,"Mobile App",True
+459,ORD_00000459,"In-Store Cashier",False
+460,ORD_00000460,Drive-Thru,False
+461,ORD_00000461,"Mobile App",False
+462,ORD_00000462,"Mobile App",True
+463,ORD_00000463,"Mobile App",False
+464,ORD_00000464,Drive-Thru,False
+465,ORD_00000465,"Mobile App",True
+466,ORD_00000466,"Mobile App",True
+467,ORD_00000467,Kiosk,False
+468,ORD_00000468,Drive-Thru,False
+469,ORD_00000469,Kiosk,False
+470,ORD_00000470,"In-Store Cashier",False
+471,ORD_00000471,"Mobile App",True
+472,ORD_00000472,Kiosk,False
+473,ORD_00000473,"In-Store Cashier",False
+474,ORD_00000474,Kiosk,False
+475,ORD_00000475,"Mobile App",True
+476,ORD_00000476,"In-Store Cashier",False
+477,ORD_00000477,"In-Store Cashier",False
+478,ORD_00000478,Drive-Thru,False
+479,ORD_00000479,Drive-Thru,False
+480,ORD_00000480,Drive-Thru,False
+481,ORD_00000481,Drive-Thru,False
+482,ORD_00000482,"Mobile App",True
+483,ORD_00000483,"Mobile App",False
+484,ORD_00000484,Kiosk,False
+485,ORD_00000485,"In-Store Cashier",False
+486,ORD_00000486,"Mobile App",True
+487,ORD_00000487,Kiosk,False
+488,ORD_00000488,Drive-Thru,False
+489,ORD_00000489,"Mobile App",True
+490,ORD_00000490,"In-Store Cashier",False
+491,ORD_00000491,"In-Store Cashier",False
+492,ORD_00000492,Kiosk,False
+493,ORD_00000493,Kiosk,False
+494,ORD_00000494,Kiosk,False
+495,ORD_00000495,"Mobile App",False
+496,ORD_00000496,"Mobile App",True
+497,ORD_00000497,Drive-Thru,False
+498,ORD_00000498,"Mobile App",True
+499,ORD_00000499,"In-Store Cashier",False
+500,ORD_00000500,Drive-Thru,False
+501,ORD_00000501,Drive-Thru,False
+502,ORD_00000502,"In-Store Cashier",False
+503,ORD_00000503,Kiosk,False
+504,ORD_00000504,"Mobile App",True
+505,ORD_00000505,"Mobile App",True
+506,ORD_00000506,"Mobile App",True
+507,ORD_00000507,Drive-Thru,False
+508,ORD_00000508,Kiosk,False
+509,ORD_00000509,Drive-Thru,False
+510,ORD_00000510,Drive-Thru,False
+511,ORD_00000511,"Mobile App",True
+512,ORD_00000512,"Mobile App",True
+513,ORD_00000513,"Mobile App",True
+514,ORD_00000514,Kiosk,False
+515,ORD_00000515,Drive-Thru,False
+516,ORD_00000516,"Mobile App",True
+517,ORD_00000517,"In-Store Cashier",False
+518,ORD_00000518,Drive-Thru,False
+519,ORD_00000519,"Mobile App",True
+520,ORD_00000520,"Mobile App",True
+521,ORD_00000521,Kiosk,False
+522,ORD_00000522,Drive-Thru,False
+523,ORD_00000523,"Mobile App",False
+524,ORD_00000524,Drive-Thru,False
+525,ORD_00000525,"In-Store Cashier",False
+526,ORD_00000526,Drive-Thru,False
+527,ORD_00000527,Drive-Thru,False
+528,ORD_00000528,"Mobile App",False
+529,ORD_00000529,"In-Store Cashier",False
+530,ORD_00000530,"In-Store Cashier",False
+531,ORD_00000531,Kiosk,False
+532,ORD_00000532,"Mobile App",True
+533,ORD_00000533,Drive-Thru,False
+534,ORD_00000534,"Mobile App",True
+535,ORD_00000535,Kiosk,False
+536,ORD_00000536,Drive-Thru,False
+537,ORD_00000537,Kiosk,False
+538,ORD_00000538,"In-Store Cashier",False
+539,ORD_00000539,"Mobile App",True
+540,ORD_00000540,"Mobile App",False
+541,ORD_00000541,Drive-Thru,False
+542,ORD_00000542,Kiosk,False
+543,ORD_00000543,"Mobile App",False
+544,ORD_00000544,Kiosk,False
+545,ORD_00000545,Drive-Thru,False
+546,ORD_00000546,"Mobile App",True
+547,ORD_00000547,"Mobile App",False
+548,ORD_00000548,"In-Store Cashier",False
+549,ORD_00000549,Drive-Thru,False
+550,ORD_00000550,Drive-Thru,False
+551,ORD_00000551,"Mobile App",True
+552,ORD_00000552,"In-Store Cashier",False
+553,ORD_00000553,"Mobile App",True
+554,ORD_00000554,"In-Store Cashier",False
+555,ORD_00000555,"Mobile App",False
+556,ORD_00000556,"In-Store Cashier",False
+557,ORD_00000557,Drive-Thru,False
+558,ORD_00000558,"Mobile App",True
+559,ORD_00000559,Drive-Thru,False
+560,ORD_00000560,"Mobile App",False
+561,ORD_00000561,"Mobile App",False
+562,ORD_00000562,"Mobile App",False
+563,ORD_00000563,"Mobile App",True
+564,ORD_00000564,Drive-Thru,False
+565,ORD_00000565,"Mobile App",True
+566,ORD_00000566,"In-Store Cashier",False
+567,ORD_00000567,Drive-Thru,False
+568,ORD_00000568,Drive-Thru,False
+569,ORD_00000569,Drive-Thru,False
+570,ORD_00000570,"In-Store Cashier",False
+571,ORD_00000571,"Mobile App",False
+572,ORD_00000572,"Mobile App",True
+573,ORD_00000573,"Mobile App",False
+574,ORD_00000574,"Mobile App",True
+575,ORD_00000575,Drive-Thru,False
+576,ORD_00000576,"Mobile App",True
+577,ORD_00000577,Drive-Thru,False
+578,ORD_00000578,"In-Store Cashier",False
+579,ORD_00000579,"In-Store Cashier",False
+580,ORD_00000580,"In-Store Cashier",False
+581,ORD_00000581,Kiosk,False
+582,ORD_00000582,"Mobile App",True
+583,ORD_00000583,"Mobile App",True
+584,ORD_00000584,"In-Store Cashier",False
+585,ORD_00000585,Kiosk,False
+586,ORD_00000586,"Mobile App",True
+587,ORD_00000587,Drive-Thru,False
+588,ORD_00000588,Kiosk,False
+589,ORD_00000589,"In-Store Cashier",False
+590,ORD_00000590,"Mobile App",False
+591,ORD_00000591,Drive-Thru,False
+592,ORD_00000592,Drive-Thru,False
+593,ORD_00000593,"In-Store Cashier",False
+594,ORD_00000594,"In-Store Cashier",False
+595,ORD_00000595,"Mobile App",False
+596,ORD_00000596,"Mobile App",False
+597,ORD_00000597,"Mobile App",False
+598,ORD_00000598,"Mobile App",True
+599,ORD_00000599,Drive-Thru,False
+600,ORD_00000600,Drive-Thru,False
+601,ORD_00000601,Drive-Thru,False
+602,ORD_00000602,Drive-Thru,False
+603,ORD_00000603,"Mobile App",False
+604,ORD_00000604,"Mobile App",True
+605,ORD_00000605,"Mobile App",True
+606,ORD_00000606,"Mobile App",True
+607,ORD_00000607,"Mobile App",True
+608,ORD_00000608,"In-Store Cashier",False
+609,ORD_00000609,"In-Store Cashier",False
+610,ORD_00000610,Drive-Thru,False
+611,ORD_00000611,"Mobile App",True
+612,ORD_00000612,Drive-Thru,False
+613,ORD_00000613,"In-Store Cashier",False
+614,ORD_00000614,"Mobile App",True
+615,ORD_00000615,"Mobile App",False
+616,ORD_00000616,"Mobile App",True
+617,ORD_00000617,"Mobile App",True
+618,ORD_00000618,Drive-Thru,False
+619,ORD_00000619,"Mobile App",True
+620,ORD_00000620,"In-Store Cashier",False
+621,ORD_00000621,"In-Store Cashier",False
+622,ORD_00000622,Kiosk,False
+623,ORD_00000623,"Mobile App",False
+624,ORD_00000624,Drive-Thru,False
+625,ORD_00000625,"Mobile App",True
+626,ORD_00000626,Drive-Thru,False
+627,ORD_00000627,"Mobile App",True
+628,ORD_00000628,Drive-Thru,False
+629,ORD_00000629,Drive-Thru,False
+630,ORD_00000630,Drive-Thru,False
+631,ORD_00000631,Drive-Thru,False
+632,ORD_00000632,"Mobile App",True
+633,ORD_00000633,"Mobile App",True
+634,ORD_00000634,"Mobile App",True
+635,ORD_00000635,Drive-Thru,False
+636,ORD_00000636,"Mobile App",True
+637,ORD_00000637,"Mobile App",True
+638,ORD_00000638,"Mobile App",False
+639,ORD_00000639,Drive-Thru,False
+640,ORD_00000640,"Mobile App",True
+641,ORD_00000641,"Mobile App",True
+642,ORD_00000642,"Mobile App",True
+643,ORD_00000643,Drive-Thru,False
+644,ORD_00000644,"In-Store Cashier",False
+645,ORD_00000645,"Mobile App",True
+646,ORD_00000646,Kiosk,False
+647,ORD_00000647,"In-Store Cashier",False
+648,ORD_00000648,Drive-Thru,False
+649,ORD_00000649,"In-Store Cashier",False
+650,ORD_00000650,Drive-Thru,False
+651,ORD_00000651,Drive-Thru,False
+652,ORD_00000652,Drive-Thru,False
+653,ORD_00000653,"Mobile App",True
+654,ORD_00000654,Drive-Thru,False
+655,ORD_00000655,Drive-Thru,False
+656,ORD_00000656,Drive-Thru,False
+657,ORD_00000657,"In-Store Cashier",False
+658,ORD_00000658,"Mobile App",False
+659,ORD_00000659,"Mobile App",True
+660,ORD_00000660,"Mobile App",True
+661,ORD_00000661,"Mobile App",True
+662,ORD_00000662,Drive-Thru,False
+663,ORD_00000663,Drive-Thru,False
+664,ORD_00000664,"Mobile App",True
+665,ORD_00000665,"In-Store Cashier",False
+666,ORD_00000666,Drive-Thru,False
+667,ORD_00000667,"Mobile App",True
+668,ORD_00000668,"Mobile App",True
+669,ORD_00000669,Drive-Thru,False
+670,ORD_00000670,"Mobile App",True
+671,ORD_00000671,Drive-Thru,False
+672,ORD_00000672,Drive-Thru,False
+673,ORD_00000673,Drive-Thru,False
+674,ORD_00000674,"Mobile App",True
+675,ORD_00000675,Drive-Thru,False
+676,ORD_00000676,Drive-Thru,False
+677,ORD_00000677,"Mobile App",True
+678,ORD_00000678,Drive-Thru,False
+679,ORD_00000679,"Mobile App",True
+680,ORD_00000680,Drive-Thru,False
+681,ORD_00000681,Drive-Thru,False
+682,ORD_00000682,"Mobile App",True
+683,ORD_00000683,Drive-Thru,False
+684,ORD_00000684,Drive-Thru,False
+685,ORD_00000685,"In-Store Cashier",False
+686,ORD_00000686,Drive-Thru,False
+687,ORD_00000687,Drive-Thru,False
+688,ORD_00000688,Drive-Thru,False
+689,ORD_00000689,Drive-Thru,False
+690,ORD_00000690,"Mobile App",True
+691,ORD_00000691,"In-Store Cashier",False
+692,ORD_00000692,Kiosk,False
+693,ORD_00000693,"Mobile App",True
+694,ORD_00000694,"Mobile App",False
+695,ORD_00000695,Drive-Thru,False
+696,ORD_00000696,"Mobile App",True
+697,ORD_00000697,Drive-Thru,False
+698,ORD_00000698,Drive-Thru,False
+699,ORD_00000699,Drive-Thru,False
+700,ORD_00000700,"In-Store Cashier",False
+701,ORD_00000701,Kiosk,False
+702,ORD_00000702,"In-Store Cashier",False
+703,ORD_00000703,Drive-Thru,False
+704,ORD_00000704,"In-Store Cashier",False
+705,ORD_00000705,"Mobile App",True
+706,ORD_00000706,"In-Store Cashier",False
+707,ORD_00000707,Drive-Thru,False
+708,ORD_00000708,Drive-Thru,False
+709,ORD_00000709,"Mobile App",True
+710,ORD_00000710,"In-Store Cashier",False
+711,ORD_00000711,"In-Store Cashier",False
+712,ORD_00000712,Drive-Thru,False
+713,ORD_00000713,"Mobile App",True
+714,ORD_00000714,"Mobile App",False
+715,ORD_00000715,"In-Store Cashier",False
+716,ORD_00000716,"Mobile App",True
+717,ORD_00000717,Drive-Thru,False
+718,ORD_00000718,Drive-Thru,False
+719,ORD_00000719,"Mobile App",True
+720,ORD_00000720,"Mobile App",True
+721,ORD_00000721,"Mobile App",True
+722,ORD_00000722,"Mobile App",True
+723,ORD_00000723,Kiosk,False
+724,ORD_00000724,"In-Store Cashier",False
+725,ORD_00000725,"Mobile App",True
+726,ORD_00000726,"Mobile App",False
+727,ORD_00000727,"Mobile App",True
+728,ORD_00000728,"Mobile App",True
+729,ORD_00000729,Drive-Thru,False
+730,ORD_00000730,Drive-Thru,False
+731,ORD_00000731,"Mobile App",False
+732,ORD_00000732,"Mobile App",True
+733,ORD_00000733,Drive-Thru,False
+734,ORD_00000734,"In-Store Cashier",False
+735,ORD_00000735,"In-Store Cashier",False
+736,ORD_00000736,"In-Store Cashier",False
+737,ORD_00000737,"Mobile App",True
+738,ORD_00000738,Drive-Thru,False
+739,ORD_00000739,"In-Store Cashier",False
+740,ORD_00000740,"In-Store Cashier",False
+741,ORD_00000741,"Mobile App",True
+742,ORD_00000742,"In-Store Cashier",False
+743,ORD_00000743,"In-Store Cashier",False
+744,ORD_00000744,"Mobile App",False
+745,ORD_00000745,"In-Store Cashier",False
+746,ORD_00000746,Drive-Thru,False
+747,ORD_00000747,Drive-Thru,False
+748,ORD_00000748,"Mobile App",True
+749,ORD_00000749,"Mobile App",False
+750,ORD_00000750,Kiosk,False
+751,ORD_00000751,"In-Store Cashier",False
+752,ORD_00000752,"Mobile App",True
+753,ORD_00000753,Drive-Thru,False
+754,ORD_00000754,"In-Store Cashier",False
+755,ORD_00000755,"Mobile App",True
+756,ORD_00000756,"In-Store Cashier",False
+757,ORD_00000757,"In-Store Cashier",False
+758,ORD_00000758,"In-Store Cashier",False
+759,ORD_00000759,"In-Store Cashier",False
+760,ORD_00000760,Kiosk,False
+761,ORD_00000761,"Mobile App",True
+762,ORD_00000762,Drive-Thru,False
+763,ORD_00000763,"Mobile App",True
+764,ORD_00000764,"Mobile App",True
+765,ORD_00000765,"In-Store Cashier",False
+766,ORD_00000766,Drive-Thru,False
+767,ORD_00000767,"Mobile App",True
+768,ORD_00000768,"Mobile App",True
+769,ORD_00000769,Kiosk,False
+770,ORD_00000770,"In-Store Cashier",False
+771,ORD_00000771,"Mobile App",True
+772,ORD_00000772,"Mobile App",True
+773,ORD_00000773,"Mobile App",False
+774,ORD_00000774,"In-Store Cashier",False
+775,ORD_00000775,"In-Store Cashier",False
+776,ORD_00000776,Drive-Thru,False
+777,ORD_00000777,"In-Store Cashier",False
+778,ORD_00000778,"Mobile App",False
+779,ORD_00000779,Drive-Thru,False
+780,ORD_00000780,"In-Store Cashier",False
+781,ORD_00000781,"Mobile App",True
+782,ORD_00000782,"Mobile App",True
+783,ORD_00000783,"In-Store Cashier",False
+784,ORD_00000784,"In-Store Cashier",False
+785,ORD_00000785,Drive-Thru,False
+786,ORD_00000786,Drive-Thru,False
+787,ORD_00000787,"Mobile App",False
+788,ORD_00000788,"In-Store Cashier",False
+789,ORD_00000789,"In-Store Cashier",False
+790,ORD_00000790,Kiosk,False
+791,ORD_00000791,Drive-Thru,False
+792,ORD_00000792,"Mobile App",True
+793,ORD_00000793,Drive-Thru,False
+794,ORD_00000794,"Mobile App",True
+795,ORD_00000795,Drive-Thru,False
+796,ORD_00000796,"Mobile App",False
+797,ORD_00000797,"Mobile App",False
+798,ORD_00000798,"In-Store Cashier",False
+799,ORD_00000799,"In-Store Cashier",False
+800,ORD_00000800,Kiosk,False
+801,ORD_00000801,"In-Store Cashier",False
+802,ORD_00000802,Kiosk,False
+803,ORD_00000803,Drive-Thru,False
+804,ORD_00000804,"Mobile App",True
+805,ORD_00000805,"Mobile App",True
+806,ORD_00000806,"Mobile App",True
+807,ORD_00000807,Drive-Thru,False
+808,ORD_00000808,Drive-Thru,False
+809,ORD_00000809,"In-Store Cashier",False
+810,ORD_00000810,Kiosk,False
+811,ORD_00000811,"Mobile App",True
+812,ORD_00000812,Drive-Thru,False
+813,ORD_00000813,"In-Store Cashier",False
+814,ORD_00000814,"Mobile App",False
+815,ORD_00000815,"Mobile App",True
+816,ORD_00000816,Drive-Thru,False
+817,ORD_00000817,"In-Store Cashier",False
+818,ORD_00000818,"In-Store Cashier",False
+819,ORD_00000819,"Mobile App",True
+820,ORD_00000820,Drive-Thru,False
+821,ORD_00000821,"In-Store Cashier",False
+822,ORD_00000822,Drive-Thru,False
+823,ORD_00000823,Drive-Thru,False
+824,ORD_00000824,"In-Store Cashier",False
+825,ORD_00000825,Kiosk,False
+826,ORD_00000826,"In-Store Cashier",False
+827,ORD_00000827,"Mobile App",False
+828,ORD_00000828,Drive-Thru,False
+829,ORD_00000829,"In-Store Cashier",False
+830,ORD_00000830,Drive-Thru,False
+831,ORD_00000831,Kiosk,False
+832,ORD_00000832,"In-Store Cashier",False
+833,ORD_00000833,"In-Store Cashier",False
+834,ORD_00000834,"In-Store Cashier",False
+835,ORD_00000835,Drive-Thru,False
+836,ORD_00000836,"Mobile App",True
+837,ORD_00000837,Drive-Thru,False
+838,ORD_00000838,Drive-Thru,False
+839,ORD_00000839,Drive-Thru,False
+840,ORD_00000840,"Mobile App",True
+841,ORD_00000841,Kiosk,False
+842,ORD_00000842,Drive-Thru,False
+843,ORD_00000843,Drive-Thru,False
+844,ORD_00000844,"In-Store Cashier",False
+845,ORD_00000845,"Mobile App",True
+846,ORD_00000846,"Mobile App",False
+847,ORD_00000847,Drive-Thru,False
+848,ORD_00000848,"Mobile App",True
+849,ORD_00000849,"In-Store Cashier",False
+850,ORD_00000850,"Mobile App",False
+851,ORD_00000851,"Mobile App",True
+852,ORD_00000852,"Mobile App",False
+853,ORD_00000853,"Mobile App",True
+854,ORD_00000854,Drive-Thru,False
+855,ORD_00000855,"Mobile App",False
+856,ORD_00000856,"Mobile App",True
+857,ORD_00000857,"In-Store Cashier",False
+858,ORD_00000858,"Mobile App",True
+859,ORD_00000859,"Mobile App",True
+860,ORD_00000860,"In-Store Cashier",False
+861,ORD_00000861,Drive-Thru,False
+862,ORD_00000862,"Mobile App",True
+863,ORD_00000863,"In-Store Cashier",False
+864,ORD_00000864,Drive-Thru,False
+865,ORD_00000865,"In-Store Cashier",False
+866,ORD_00000866,Drive-Thru,False
+867,ORD_00000867,Drive-Thru,False
+868,ORD_00000868,"Mobile App",True
+869,ORD_00000869,Kiosk,False
+870,ORD_00000870,Kiosk,False
+871,ORD_00000871,"Mobile App",False
+872,ORD_00000872,Drive-Thru,False
+873,ORD_00000873,"In-Store Cashier",False
+874,ORD_00000874,Kiosk,False
+875,ORD_00000875,"In-Store Cashier",False
+876,ORD_00000876,"Mobile App",True
+877,ORD_00000877,"Mobile App",False
+878,ORD_00000878,"Mobile App",True
+879,ORD_00000879,Drive-Thru,False
+880,ORD_00000880,Drive-Thru,False
+881,ORD_00000881,"Mobile App",False
+882,ORD_00000882,"Mobile App",True
+883,ORD_00000883,Drive-Thru,False
+884,ORD_00000884,Drive-Thru,False
+885,ORD_00000885,"Mobile App",True
+886,ORD_00000886,Drive-Thru,False
+887,ORD_00000887,"Mobile App",True
+888,ORD_00000888,"Mobile App",False
+889,ORD_00000889,"In-Store Cashier",False
+890,ORD_00000890,Drive-Thru,False
+891,ORD_00000891,"Mobile App",True
+892,ORD_00000892,"Mobile App",True
+893,ORD_00000893,"In-Store Cashier",False
+894,ORD_00000894,"Mobile App",True
+895,ORD_00000895,Drive-Thru,False
+896,ORD_00000896,"In-Store Cashier",False
+897,ORD_00000897,"Mobile App",True
+898,ORD_00000898,"Mobile App",False
+899,ORD_00000899,Kiosk,False
+900,ORD_00000900,"Mobile App",True
+901,ORD_00000901,Drive-Thru,False
+902,ORD_00000902,"In-Store Cashier",False
+903,ORD_00000903,"Mobile App",True
+904,ORD_00000904,"In-Store Cashier",False
+905,ORD_00000905,"In-Store Cashier",False
+906,ORD_00000906,Drive-Thru,False
+907,ORD_00000907,Drive-Thru,False
+908,ORD_00000908,Drive-Thru,False
+909,ORD_00000909,"Mobile App",True
+910,ORD_00000910,"Mobile App",True
+911,ORD_00000911,Drive-Thru,False
+912,ORD_00000912,"In-Store Cashier",False
+913,ORD_00000913,"Mobile App",True
+914,ORD_00000914,"Mobile App",True
+915,ORD_00000915,"Mobile App",True
+916,ORD_00000916,Drive-Thru,False
+917,ORD_00000917,"Mobile App",False
+918,ORD_00000918,"Mobile App",True
+919,ORD_00000919,"In-Store Cashier",False
+920,ORD_00000920,Drive-Thru,False
+921,ORD_00000921,"In-Store Cashier",False
+922,ORD_00000922,Drive-Thru,False
+923,ORD_00000923,Drive-Thru,False
+924,ORD_00000924,"Mobile App",True
+925,ORD_00000925,"In-Store Cashier",False
+926,ORD_00000926,"Mobile App",True
+927,ORD_00000927,Kiosk,False
+928,ORD_00000928,"Mobile App",True
+929,ORD_00000929,"Mobile App",True
+930,ORD_00000930,"Mobile App",True
+931,ORD_00000931,"Mobile App",True
+932,ORD_00000932,"Mobile App",True
+933,ORD_00000933,"Mobile App",True
+934,ORD_00000934,"Mobile App",False
+935,ORD_00000935,"Mobile App",True
+936,ORD_00000936,"Mobile App",True
+937,ORD_00000937,Drive-Thru,False
+938,ORD_00000938,"Mobile App",True
+939,ORD_00000939,"Mobile App",False
+940,ORD_00000940,"In-Store Cashier",False
+941,ORD_00000941,"In-Store Cashier",False
+942,ORD_00000942,Drive-Thru,False
+943,ORD_00000943,"Mobile App",True
+944,ORD_00000944,"Mobile App",True
+945,ORD_00000945,Drive-Thru,False
+946,ORD_00000946,Kiosk,False
+947,ORD_00000947,Drive-Thru,False
+948,ORD_00000948,Drive-Thru,False
+949,ORD_00000949,Drive-Thru,False
+950,ORD_00000950,"Mobile App",True
+951,ORD_00000951,Drive-Thru,False
+952,ORD_00000952,"In-Store Cashier",False
+953,ORD_00000953,"In-Store Cashier",False
+954,ORD_00000954,Drive-Thru,False
+955,ORD_00000955,Drive-Thru,False
+956,ORD_00000956,Kiosk,False
+957,ORD_00000957,"In-Store Cashier",False
+958,ORD_00000958,"Mobile App",True
+959,ORD_00000959,Drive-Thru,False
+960,ORD_00000960,"Mobile App",False
+961,ORD_00000961,"Mobile App",True
+962,ORD_00000962,"Mobile App",False
+963,ORD_00000963,"Mobile App",True
+964,ORD_00000964,"In-Store Cashier",False
+965,ORD_00000965,"Mobile App",True
+966,ORD_00000966,Drive-Thru,False
+967,ORD_00000967,Drive-Thru,False
+968,ORD_00000968,"Mobile App",False
+969,ORD_00000969,Drive-Thru,False
+970,ORD_00000970,Kiosk,False
+971,ORD_00000971,"In-Store Cashier",False
+972,ORD_00000972,"Mobile App",True
+973,ORD_00000973,"In-Store Cashier",False
+974,ORD_00000974,"Mobile App",False
+975,ORD_00000975,Drive-Thru,False
+976,ORD_00000976,"In-Store Cashier",False
+977,ORD_00000977,"In-Store Cashier",False
+978,ORD_00000978,"Mobile App",False
+979,ORD_00000979,"In-Store Cashier",False
+980,ORD_00000980,Kiosk,False
+981,ORD_00000981,"Mobile App",True
+982,ORD_00000982,Drive-Thru,False
+983,ORD_00000983,"In-Store Cashier",False
+984,ORD_00000984,Drive-Thru,False
+985,ORD_00000985,"Mobile App",True
+986,ORD_00000986,"Mobile App",True
+987,ORD_00000987,Kiosk,False
+988,ORD_00000988,"Mobile App",True
+989,ORD_00000989,"In-Store Cashier",False
+990,ORD_00000990,Drive-Thru,False
+991,ORD_00000991,"Mobile App",True
+992,ORD_00000992,"Mobile App",True
+993,ORD_00000993,Drive-Thru,False
+994,ORD_00000994,Drive-Thru,False
+995,ORD_00000995,"In-Store Cashier",False
+996,ORD_00000996,Kiosk,False
+997,ORD_00000997,Kiosk,False
+998,ORD_00000998,"Mobile App",True
+999,ORD_00000999,"In-Store Cashier",False
+1000,ORD_00001000,Drive-Thru,False
