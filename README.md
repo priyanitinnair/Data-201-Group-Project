@@ -27,10 +27,13 @@ sql-project/
 ├──processed csv
     ├── customer.csv
     ├── store.csv
-    ├── orders.csv
-    ├── cart_details.csv
-    ├── channel.csv
-    ├── drink_category_lookup.csv
+    ├── order.csv
+    ├── priya_cart_details.csv
+    ├── channel_lookup.csv
+    ├── priya_drink_lookup.csv
+    ├── starbucks_channel_lookup.sql
+    ├── starbucks_customer_ordering_patterns.csv
+    
 
 ├──schema.sql
     
@@ -40,6 +43,10 @@ sql-project/
    ├── cart_details.sql
    ├──channel.sql
    ├──drink_category_lookup.sql
+   ├──age_ranges.sql
+   ├──drink_popularity.sql
+   ├──highest_spending_age_group.sql
+   ├─popularity_by_region.sql
    
 └──ER-diagram 
   ├──![ER Diagram](customer%20ordering%20pattern.drawio.png)
@@ -50,16 +57,9 @@ sql-project/
 ├── queries/
   ├──Database Midterm Project SQL queries
   ├──Midterm-3 Basic $ 1 Advance Query
+  ├──Varuna_Project 201 Final Queries.dox
 
-  
-├── analysis/
-│   ├── booking_analysis.sql
-│   └── customer_insights.sql
-│
-├── outputs/
-│   ├── charts/
-│   └── results.csv
-│
-└── docs/
-    └── data_dictionary.md
+
+
+
 
