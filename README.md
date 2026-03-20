@@ -17,9 +17,9 @@ Project Structure
 
 sql-project/
 │
-├── README.md                          # Project overview, goals, and setup instructions
+├── README.md                          
 │
-├── data/                              # Data storage (ignored by git if large)
+├── data/                            
 │   ├── raw/
 │   │   ├── starbucks_dump.csv         # Original, uncleaned dataset
 │   │   └── source_link.txt            # Link to Kaggle source
@@ -58,4 +58,4 @@ sql-project/
 │   └── Final_Queries_Varuna.docx
 │
 └── presentation/                      # Stakeholder communication
-    └── Welcome_to_Starbucks.pptx      # The story of the Digital Venti Effect
+    └── Welcome_to_Starbucks.pptx 
