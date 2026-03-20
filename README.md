@@ -17,14 +17,14 @@ Project Structure
 
 sql-project/
 │
-├── README.md
+├── README.md                          # Project overview, goals, and setup instructions
 │
-├── data/
+├── data/                              # Data storage (ignored by git if large)
 │   ├── raw/
-│   │   ├── starbucks_dump.csv
-│   │   └── [source_link.txt](https://www.kaggle.com/datasets/likithagedipudi/starbucks-customer-ordering-patterns)
+│   │   ├── starbucks_dump.csv         # Original, uncleaned dataset
+│   │   └── source_link.txt            # Link to Kaggle source
 │   │
-│   └── processed/
+│   └── processed/                     # Normalized CSVs ready for SQL import
 │       ├── customer.csv
 │       ├── store.csv
 │       ├── orders.csv
@@ -33,36 +33,29 @@ sql-project/
 │       ├── drink_lookup.csv
 │       └── starbucks_customer_ordering_patterns.csv
 │
-├── schema/
-│   ├── create_tables.sql
-│   ├── customer.sql
+├── schema/                            # Data Definition Language (DDL)
+│   ├── create_tables.sql              # Master script to build the DB
+│   ├── customer.sql                   # Individual table constraints
 │   ├── store.sql
 │   ├── orders.sql
 │   ├── cart_details.sql
 │   ├── channel.sql
 │   └── drink_category_lookup.sql
 │
-├── analysis/
+├── analysis/                          # Basic analytical queries (The "What")
 │   ├── age_ranges.sql
 │   ├── drink_popularity.sql
 │   ├── highest_spending_age_group.sql
 │   └── popularity_by_region.sql
 │
-├── diagrams/
-│   ├── Customer ordering patterns Chen's notation ER diagram.draw.io
-│   └── EER_diagram.jpeg
+├── diagrams/                          # Visual documentation
+│   ├── ER_diagram_Chens_Notation.drawio
+│   └── EER_diagram.jpeg               # Enhanced Entity-Relationship view
 │
-├── queries/
-│   ├──Database Midterm Project Sql queries.pdf
-│   ├──Midtern-3 Basic & Advance Query(Sanjana).pdf   
-│   ├──Varuna__Project 201 Final Queries.dox
-│    
-│   
-├── presentation/
-│   └── Welcome to Starbucks(1).pptx   
-│   
-│   
-│   
-│   
+├── queries/                           # Advanced scripts & Project reports
+│   ├── Database_Midterm_Project.pdf
+│   ├── Advanced_Query_Sanjana.pdf   
+│   └── Final_Queries_Varuna.docx
 │
-
+└── presentation/                      # Stakeholder communication
+    └── Welcome_to_Starbucks.pptx      # The story of the Digital Venti Effect
