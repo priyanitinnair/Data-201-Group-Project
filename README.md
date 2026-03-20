@@ -22,7 +22,7 @@ sql-project/
 ├── data/                            
 │   ├── raw/
 │   │   ├── starbucks_dump.csv         
-│   │   └── source_link.txt            
+│   │   └── [source_link.txt ](https://www.kaggle.com/datasets/likithagedipudi/starbucks-customer-ordering-patterns)           
 │   │
 │   └── processed/                    
 │       ├── customer.csv
@@ -58,4 +58,4 @@ sql-project/
 │   └── Final_Queries_Varuna.docx
 │
 └── presentation/                   
-    └── Welcome_to_Starbucks.pptx 
+    └── Welcome to Starbucks(1).pptx 
