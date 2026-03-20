@@ -21,10 +21,10 @@ sql-project/
 │
 ├── data/                            
 │   ├── raw/
-│   │   ├── starbucks_dump.csv         # Original, uncleaned dataset
-│   │   └── source_link.txt            # Link to Kaggle source
+│   │   ├── starbucks_dump.csv         
+│   │   └── source_link.txt            
 │   │
-│   └── processed/                     # Normalized CSVs ready for SQL import
+│   └── processed/                    
 │       ├── customer.csv
 │       ├── store.csv
 │       ├── orders.csv
@@ -33,9 +33,9 @@ sql-project/
 │       ├── drink_lookup.csv
 │       └── starbucks_customer_ordering_patterns.csv
 │
-├── schema/                            # Data Definition Language (DDL)
-│   ├── create_tables.sql              # Master script to build the DB
-│   ├── customer.sql                   # Individual table constraints
+├── schema/                          
+│   ├── create_tables.sql              
+│   ├── customer.sql                  
 │   ├── store.sql
 │   ├── orders.sql
 │   ├── cart_details.sql
