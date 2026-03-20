@@ -17,12 +17,12 @@ Project Structure
 
 sql-project/
 │
-├── README.md
-├── 
-│
+  ├── README.md
+ 
+
 ├── data/
-│   ├── raw/https://www.kaggle.com/datasets/likithagedipudi/starbucks-customer-ordering-patterns
-│   │   └── starbucks dump.csv
+  ├── raw/https://www.kaggle.com/datasets/likithagedipudi/starbucks-customer-ordering-patterns
+     └── starbucks dump.csv
 
 ├──processed csv
     ├── customer.csv
