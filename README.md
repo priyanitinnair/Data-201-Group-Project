@@ -17,50 +17,52 @@ Project Structure
 
 sql-project/
 │
-  ├── README.md
- 
-
+├── README.md
+│
 ├── data/
-  ├── raw/https://www.kaggle.com/datasets/likithagedipudi/starbucks-customer-ordering-patterns
-     └── starbucks dump.csv
-
-├──processed csv
-    ├── customer.csv
-    ├── store.csv
-    ├── order.csv
-    ├── priya_cart_details.csv
-    ├── channel_lookup.csv
-    ├── priya_drink_lookup.csv
-    ├── starbucks_channel_lookup.sql
-    ├── starbucks_customer_ordering_patterns.csv
-    
-
-├──schema.sql
-    
-   ├── customer.sql
-   ├── store.sql
-   ├── order.sql
-   ├── cart_details.sql
-   ├──channel.sql
-   ├──drink_category_lookup.sql
-   ├──age_ranges.sql
-   ├──drink_popularity.sql
-   ├──highest_spending_age_group.sql
-   ├─popularity_by_region.sql
-   
-└──ER-diagram 
-  ├──![ER Diagram](customer%20ordering%20pattern.drawio.png)
-
-└──EER-diagram 
-  ├──EER Diagram.jpeg
-
+│   ├── raw/
+│   │   ├── starbucks_dump.csv
+│   │   └── [source_link.txt](https://www.kaggle.com/datasets/likithagedipudi/starbucks-customer-ordering-patterns)
+│   │
+│   └── processed/
+│       ├── customer.csv
+│       ├── store.csv
+│       ├── orders.csv
+│       ├── cart_details.csv
+│       ├── channel_lookup.csv
+│       ├── drink_lookup.csv
+│       └── starbucks_customer_ordering_patterns.csv
+│
+├── schema/
+│   ├── create_tables.sql
+│   ├── customer.sql
+│   ├── store.sql
+│   ├── orders.sql
+│   ├── cart_details.sql
+│   ├── channel.sql
+│   └── drink_category_lookup.sql
+│
+├── analysis/
+│   ├── age_ranges.sql
+│   ├── drink_popularity.sql
+│   ├── highest_spending_age_group.sql
+│   └── popularity_by_region.sql
+│
+├── diagrams/
+│   ├── Customer ordering patterns Chen's notation ER diagram.draw.io
+│   └── EER_diagram.jpeg
+│
 ├── queries/
-  ├──Database Midterm Project SQL queries
-  ├──Midterm-3 Basic $ 1 Advance Query
-  ├──Varuna_Project 201 Final Queries.dox
-
-├── presentation
-  ├──Welcome to Starbucks(1).pptx
-
-
+│   ├──Database Midterm Project Sql queries.pdf
+│   ├──Midtern-3 Basic & Advance Query(Sanjana).pdf   
+│   ├──Varuna__Project 201 Final Queries.dox
+│    
+│   
+├── presentation/
+│   └── Welcome to Starbucks(1).pptx   
+│   
+│   
+│   
+│   
+│
 
