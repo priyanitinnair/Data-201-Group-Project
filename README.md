@@ -42,20 +42,20 @@ sql-project/
 │   ├── channel.sql
 │   └── drink_category_lookup.sql
 │
-├── analysis/                          # Basic analytical queries (The "What")
+├── analysis/                          
 │   ├── age_ranges.sql
 │   ├── drink_popularity.sql
 │   ├── highest_spending_age_group.sql
 │   └── popularity_by_region.sql
 │
-├── diagrams/                          # Visual documentation
+├── diagrams/                          
 │   ├── ER_diagram_Chens_Notation.drawio
-│   └── EER_diagram.jpeg               # Enhanced Entity-Relationship view
+│   └── EER_diagram.jpeg               
 │
-├── queries/                           # Advanced scripts & Project reports
+├── queries/                          
 │   ├── Database_Midterm_Project.pdf
 │   ├── Advanced_Query_Sanjana.pdf   
 │   └── Final_Queries_Varuna.docx
 │
-└── presentation/                      # Stakeholder communication
+└── presentation/                   
     └── Welcome_to_Starbucks.pptx 
