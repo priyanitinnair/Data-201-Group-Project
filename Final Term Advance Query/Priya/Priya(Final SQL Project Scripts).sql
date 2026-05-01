@@ -106,7 +106,7 @@ FROM distribution_spending;
 
 
 -- ============================================
--- (Running EXPLAIN and EXPLAIN ANALYZE without INDEX on Q1)
+-- (Running EXPLAIN and EXPLAIN ANALYZE without INDEX on Q2)
 -- ============================================
 
 
