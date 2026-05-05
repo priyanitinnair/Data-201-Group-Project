@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Starbucks: Database Optimization & Consumer Insights</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* High-Contrast Color Palette */
+        :root {
+            --sb-green: #00704A;
+            --sb-black: #27251F;
+            --text-main: #2d3436;
+            --bg-light: #f4f7f6;
+            --danger: #d63031;    /* Accessible Red */
+            --success: #00875A;   /* Accessible Green */
+            --warning-bg: #fff9db;
+            --insight-bg: #e6fcf5;
+            --log-bg: #1e272e;
+        }
+
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 40px; background-color: var(--bg-light); color: var(--text-main); line-height: 1.6; }
+        .container { max-width: 1100px; margin: auto; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        
+        h1 { color: var(--sb-green); border-bottom: 4px solid var(--sb-green); padding-bottom: 10px; margin-bottom: 30px; font-weight: 800; }
+        h2 { color: var(--sb-black); font-size: 1.6em; margin-bottom: 15px; border-left: 5px solid var(--sb-green); padding-left: 15px; }
+        
+        .card { border: 1px solid #dfe6e9; padding: 30px; border-radius: 12px; background: #fff; margin-bottom: 30px; }
+        
+        /* Table Styles with Improved Contrast */
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; background: #fff; }
+        th { background: #f8f9fa; text-align: left; padding: 15px; font-size: 0.9em; color: #636e72; border-bottom: 3px solid var(--sb-green); text-transform: uppercase; letter-spacing: 1px; }
+        td { padding: 15px; border-bottom: 1px solid #eee; vertical-align: top; }
+        
+        /* Status Indicators */
+        .metric { font-weight: bold; font-size: 1.1em; }
+        .text-green { color: var(--success); }
+        .text-red { color: var(--danger); }
+        .warning-tag { background: #ffeaa7; color: #856404; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-family: monospace; font-size: 0.9em; }
+
+        /* Summary Boxes */
+        .insight-box { background: var(--insight-bg); padding: 25px; border-radius: 10px; border: 1px solid #c3fae8; margin-top: 20px; }
+        .insight-box h3 { margin-top: 0; color: var(--success); font-size: 1.2em; }
+
+        /* Annotated Logs */
+        .log-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin-top: 20px; }
+        .raw-log { background: var(--log-bg); color: #d1d8e0; padding: 20px; border-radius: 8px; font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; height: 220px; overflow-y: auto; white-space: pre-wrap; }
+        .annotation-box { background: #e3faf3; border: 2px solid var(--success); color: #084c3e; padding: 15px; border-radius: 8px; margin-top: 15px; font-weight: 600; }
+        
+        .label { font-weight: bold; color: #636e72; text-transform: uppercase; font-size: 0.8em; display: block; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Starbucks Data Insights & Query Audit</h1>
+
+    <div class="card">
+        <h2>Consumer Behavior: Spending & Volatility</h2>
+        <canvas id="spendingChart" height="100"></canvas>
+        
+        <div class="insight-box">
+            <h3>Strategic Inference</h3>
+            <p>The analysis shows that <strong>Rewards Members</strong> (~$3.75) and <strong>Guests</strong> (~$3.65) exhibit nearly identical spending patterns. The <strong>Volatility (Standard Deviation)</strong> remains consistent across both groups. This indicates the loyalty program has not yet established a more predictable or "clustered" high-spending habit compared to non-members.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Database Performance Audit</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Audit Metric</th>
+                    <th>Technical Finding</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Row Count Variance</strong></td>
+                    <td>
+                        <strong>EXPLAIN</strong> estimated ~99,119 rows, while <strong>ANALYZE</strong> confirmed 100,000. 
+                        This 1% variance indicates highly accurate table statistics, ensuring the optimizer makes reliable path decisions.
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Bottleneck Identification</strong></td>
+                    <td>
+                        The <strong>Aggregate using temporary table</strong> remains the most expensive step, consuming ~790ms. 
+                        While indexing speeds up data retrieval, complex math (AVG/STDDEV) still requires significant CPU resources.
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Efficiency Risks</strong></td>
+                    <td>
+                        The presence of <span class="warning-tag">Using temporary</span> and <span class="warning-tag">Using filesort</span> warns that the database is creating on-the-fly disk storage for grouping, which is a major performance risk as data scales.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>Optimization Impact Walkthrough</h2>
+        <div class="log-grid">
+            <div>
+                <span class="label">Baseline (Unoptimized)</span>
+                <div class="raw-log">
+                    -> Table scan on distribution_spending (actual time=1128..1128 rows=2 loops=1)
+-> Materialize CTE distribution_spending (actual time=1128..1128 rows=2 loops=1)
+-> Table scan on &lt;temporary&gt; (actual time=1125..1125 rows=2 loops=1)
+                </div>
+            </div>
+            <div>
+                <span class="label">Optimized (With Index)</span>
+                <div class="raw-log">
+                    -> Table scan on distribution_spending (actual time=791..791 rows=2 loops=1)
+-> Materialize CTE distribution_spending (actual time=791..791 rows=2 loops=1)
+-> Nested loop left join (actual time=0.422..725 rows=100000 loops=1)
+                </div>
+                <div class="annotation-box">
+                    ✅ <strong>STEP IMPROVED:</strong> Nested Loop Join / Table Access<br>
+                    ⏱ <strong>PERFORMANCE GAIN:</strong> Execution time dropped from 1,128ms to 791ms (~30% faster).<br>
+                    🧠 <strong>RATIONALE:</strong> Shifted from 'ALL' (Full Table Scan) to 'ref' (Index Lookup). The database now jumps directly to matching IDs.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Mock Data based on Analysis results
+    const ctx = document.getElementById('spendingChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Guest', 'Rewards Member'],
+            datasets: [
+                {
+                    label: 'Avg Spend ($)',
+                    data: [3.64, 3.74],
+                    backgroundColor: '#00704A',
+                    borderRadius: 5
+                },
+                {
+                    label: 'Volatility (Std Dev)',
+                    data: [1.68, 1.71],
+                    backgroundColor: '#27251F',
+                    borderRadius: 5
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: { beginAtZero: true, title: { display: true, text: 'USD ($)', font: { weight: 'bold' } } }
+            },
+            plugins: {
+                legend: { labels: { font: { weight: 'bold' } } }
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
