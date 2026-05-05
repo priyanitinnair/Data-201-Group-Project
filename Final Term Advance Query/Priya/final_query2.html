@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks: Purchase Frequency Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --sb-green: #00704A;
+            --sb-black: #27251F;
+            --bg-light: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px;
+            background-color: var(--bg-light);
+            color: #2d3436;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: var(--sb-green);
+            border-bottom: 4px solid var(--sb-green);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        .chart-section {
+            margin-bottom: 40px;
+            height: 400px;
+        }
+
+        .insight-card {
+            background: #e6fcf5;
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 6px solid var(--sb-green);
+            margin-top: 20px;
+        }
+
+        .insight-card h2 {
+            margin-top: 0;
+            color: var(--sb-black);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th {
+            background: #f8f9fa;
+            text-align: left;
+            padding: 12px;
+            border-bottom: 2px solid var(--sb-green);
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Customer Retention: Days Between Orders</h1>
+
+    <div class="chart-section">
+        <canvas id="frequencyChart"></canvas>
+    </div>
+
+    <div class="insight-card">
+        <h2>Analysis Description</h2>
+        <p>This report tracks the <strong>Purchase Velocity</strong> of customers using window functions. By calculating the difference between a customer's current and previous order dates, we identify churn risks and loyalty patterns.</p>
+        <ul>
+            <li><strong>LAG Function:</strong> Used to retrieve the date of the customer's previous transaction without multiple self-joins.</li>
+            <li><strong>DATEDIFF:</strong> Calculates the exact number of days between visits to measure engagement.</li>
+            <li><strong>Strategic Value:</strong> Helps Starbucks identify if customers are visiting more frequently (low days between orders) or if the gap is widening.</li>
+        </ul>
+    </div>
+
+    <h2>Raw Order Velocity Data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Customer ID</th>
+                <th>Order Date</th>
+                <th>Previous Order</th>
+                <th>Days Between</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            </tbody>
+    </table>
+</div>
+
+<script>
+    const chartData = {{ chart_data | tojson }};
+
+    // Filter out NULL values for the chart (first orders have no "days between")
+    const filteredData = chartData.filter(row => row.days_between_orders !== null);
+    
+    // Process Table
+    const tableBody = document.getElementById('tableBody');
+    chartData.slice(0, 10).forEach(row => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+            <td>${row.customer_id}</td>
+            <td>${row.order_date}</td>
+            <td>${row.previous_order || 'N/A'}</td>
+            <td>${row.days_between_orders || '0'}</td>
+        `;
+        tableBody.appendChild(tr);
+    });
+
+    // Process Chart (Showing first 20 records for clarity)
+    const labels = filteredData.slice(0, 20).map((row, index) => `Order ${index + 1}`);
+    const values = filteredData.slice(0, 20).map(row => row.days_between_orders);
+
+    new Chart(document.getElementById('frequencyChart'), {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Days Between Purchases',
+                data: values,
+                borderColor: '#00704A',
+                backgroundColor: 'rgba(0, 112, 74, 0.1)',
+                fill: true,
+                tension: 0.3
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: { beginAtZero: true, title: { display: true, text: 'Days' } }
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
