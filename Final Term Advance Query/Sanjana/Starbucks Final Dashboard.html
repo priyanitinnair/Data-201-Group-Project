@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5000/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Starbucks Final Dashboard</title>
+    <script src="./Starbucks Final Dashboard_files/chart.js.download"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f1f8f4, #e8f3ee);
+            margin: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #006241;
+            margin-bottom: 35px;
+            font-size: 36px;
+        }
+
+        .chart-box {
+            background: white;
+            padding: 25px;
+            margin: 30px auto;
+            width: 90%;
+            border-radius: 18px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.14);
+        }
+
+        h2 {
+            color: #1e3932;
+            margin-bottom: 20px;
+        }
+
+        canvas {
+            max-height: 430px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>☕ Starbucks Customer Ordering Dashboard</h1>
+
+<div class="chart-box">
+    <h2>Least Popular Drink Category</h2>
+    <canvas id="leastPopularDrinkChart" width="2133" height="645" style="display: block; box-sizing: border-box; height: 430px; width: 1422.6px;"></canvas>
+</div>
+
+<div class="chart-box">
+    <h2>Orders by Channel</h2>
+    <canvas id="ordersByChannelChart" width="2133" height="645" style="display: block; box-sizing: border-box; height: 430px; width: 1422.6px;"></canvas>
+</div>
+
+<div class="chart-box">
+    <h2>Revenue by Store Location Type</h2>
+    <canvas id="revenueByLocationChart" width="2133" height="645" style="display: block; box-sizing: border-box; height: 430px; width: 1422.6px;"></canvas>
+</div>
+
+<div class="chart-box">
+    <h2>Food vs Non-Food Average Spend</h2>
+    <canvas id="foodVsSpendChart" width="2133" height="645" style="display: block; box-sizing: border-box; height: 430px; width: 1422.6px;"></canvas>
+</div>
+
+<div class="chart-box">
+    <h2>Average Fulfillment Time by Region</h2>
+    <canvas id="fulfillmentByRegionChart" width="2133" height="645" style="display: block; box-sizing: border-box; height: 430px; width: 1422.6px;"></canvas>
+</div>
+
+<div class="chart-box">
+    <h2>Top-Selling Month per Year</h2>
+    <canvas id="topMonthYearChart" width="2133" height="645" style="display: block; box-sizing: border-box; height: 430px; width: 1422.6px;"></canvas>
+</div>
+
+<div class="chart-box">
+    <h2>Top 10 Above-Average Revenue Stores</h2>
+    <canvas id="topStoresChart" width="2133" height="645" style="display: block; box-sizing: border-box; height: 430px; width: 1422.6px;"></canvas>
+</div>
+
+<div class="chart-box">
+    <h2>Top Customer Spending</h2>
+    <canvas id="customerSegmentsChart" width="2133" height="645" style="display: block; box-sizing: border-box; height: 430px; width: 1422.6px;"></canvas>
+</div>
+
+<div class="chart-box">
+    <h2>Top Satisfaction Stores by Region</h2>
+    <canvas id="satisfactionStoresChart" width="2133" height="645" style="display: block; box-sizing: border-box; height: 430px; width: 1422.6px;"></canvas>
+</div>
+
+<script>
+    const greenGradient10 = [
+        '#004D2E', '#006241', '#00754A', '#008A55', '#00A862',
+        '#33B77C', '#66C696', '#8FD6A3', '#B4D8C6', '#D4E9E2'
+    ];
+
+    const starbucksColors = [
+        '#006241', '#00A862', '#CBA258', '#1E3932', '#8FD6A3',
+        '#4E79A7', '#59A14F', '#F28E2B', '#76B7B2'
+    ];
+
+    // 1. Least Popular Drink
+    const drinkLabels = ["Brewed Coffee"];
+    const drinkOrders = [16541];
+
+    new Chart(document.getElementById('leastPopularDrinkChart'), {
+        type: 'bar',
+        data: {
+            labels: drinkLabels,
+            datasets: [{
+                label: 'Total Orders',
+                data: drinkOrders.map(Number),
+                backgroundColor: ['#CBA258'],
+                borderColor: '#1e3932',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: { y: { beginAtZero: true } }
+        }
+    });
+
+    // 2. Orders by Channel
+    const channelLabels = ["Mobile App", "Drive-Thru", "In-Store Cashier", "Kiosk"];
+    const channelOrders = [42521, 27996, 22063, 7420];
+
+    new Chart(document.getElementById('ordersByChannelChart'), {
+        type: 'pie',
+        data: {
+            labels: channelLabels,
+            datasets: [{
+                label: 'Total Orders',
+                data: channelOrders.map(Number),
+                backgroundColor: ['#006241', '#00A862', '#CBA258', '#8FD6A3'],
+                borderColor: '#ffffff',
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true
+        }
+    });
+
+    // 3. Revenue by Store Location Type
+    const locationLabels = ["Suburban", "Urban", "Rural"];
+    const locationRevenue = ["531833.59", "482709.04", "472134.45"];
+
+    new Chart(document.getElementById('revenueByLocationChart'), {
+        type: 'bar',
+        data: {
+            labels: locationLabels,
+            datasets: [{
+                label: 'Total Revenue',
+                data: locationRevenue.map(Number),
+                backgroundColor: ['#006241', '#00A862', '#CBA258'],
+                borderColor: '#1e3932',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: { y: { beginAtZero: true } }
+        }
+    });
+
+    // 4. Food vs Non-Food Average Spend
+    const foodLabels = ["Food Item Included", "Drink Only"];
+    const foodSpend = ["16.59", "14.07"];
+
+    new Chart(document.getElementById('foodVsSpendChart'), {
+        type: 'bar',
+        data: {
+            labels: foodLabels,
+            datasets: [{
+                label: 'Average Spend',
+                data: foodSpend.map(Number),
+                backgroundColor: ['#00754A', '#CBA258'],
+                borderColor: '#1e3932',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: { y: { beginAtZero: true } }
+        }
+    });
+
+    // 5. Fulfillment Time by Region
+    const regionLabels = ["Southwest", "Northeast", "Midwest", "Southeast", "West"];
+    const fulfillmentTime = ["4.55", "4.55", "4.55", "4.54", "4.54"];
+
+    new Chart(document.getElementById('fulfillmentByRegionChart'), {
+        type: 'bar',
+        data: {
+            labels: regionLabels,
+            datasets: [{
+                label: 'Average Fulfillment Time',
+                data: fulfillmentTime.map(Number),
+                backgroundColor: starbucksColors,
+                borderColor: '#1e3932',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: { y: { beginAtZero: true } }
+        }
+    });
+
+    // 6. Top-Selling Month per Year
+    const yearLabels = [2024, 2025];
+    const monthLabels = ["October", "July"];
+    const totalSales = ["64027.13", "64933.88"];
+    const avgSpend = ["15.05", "14.93"];
+    const drinkNames = ["Espresso", "Tea"];
+
+    new Chart(document.getElementById('topMonthYearChart'), {
+        type: 'bar',
+        data: {
+            labels: yearLabels.map((year, index) => year + ' - ' + monthLabels[index] + ' (' + drinkNames[index] + ')'),
+            datasets: [
+                {
+                    label: 'Total Sales',
+                    data: totalSales.map(Number),
+                    backgroundColor: ['#006241', '#00A862'],
+                    borderColor: '#1e3932',
+                    borderWidth: 1
+                },
+                {
+                    label: 'Average Customer Spend',
+                    data: avgSpend.map(Number),
+                    type: 'line',
+                    borderColor: '#CBA258',
+                    backgroundColor: '#CBA258',
+                    tension: 0.3,
+                    yAxisID: 'y1'
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    position: 'left'
+                },
+                y1: {
+                    beginAtZero: true,
+                    position: 'right',
+                    grid: {
+                        drawOnChartArea: false
+                    }
+                }
+            }
+        }
+    });
+
+    // 7. Top 10 Above-Average Revenue Stores
+    const storeLabels = ["STR_240", "STR_405", "STR_203", "STR_361", "STR_238", "STR_029", "STR_063", "STR_224", "STR_370", "STR_478"];
+    const storeRevenue = ["3540.66", "3519.52", "3476.85", "3474.82", "3459.53", "3451.80", "3427.44", "3425.38", "3407.50", "3406.58"];
+
+    new Chart(document.getElementById('topStoresChart'), {
+        type: 'bar',
+        data: {
+            labels: storeLabels,
+            datasets: [{
+                label: 'Store Revenue',
+                data: storeRevenue.map(Number),
+                backgroundColor: greenGradient10,
+                borderColor: '#1e3932',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            scales: { x: { beginAtZero: true } }
+        }
+    });
+
+    // 8. Top Customer Spending
+    const customerLabels = ["CUST_08642", "CUST_14223", "CUST_03127", "CUST_03835", "CUST_14910", "CUST_04744", "CUST_13837", "CUST_14116", "CUST_05531", "CUST_07618"];
+    const customerSpending = ["301.68", "292.64", "283.81", "281.27", "278.99", "270.36", "268.42", "265.65", "265.03", "261.93"];
+
+    new Chart(document.getElementById('customerSegmentsChart'), {
+        type: 'bar',
+        data: {
+            labels: customerLabels,
+            datasets: [{
+                label: 'Total Spending',
+                data: customerSpending.map(Number),
+                backgroundColor: greenGradient10,
+                borderColor: '#1e3932',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            scales: { x: { beginAtZero: true } }
+        }
+    });
+
+    // 9. Top Satisfaction Stores by Region
+    const satisfactionLabels = ["STR_411", "STR_041", "STR_354", "STR_457", "STR_069", "STR_462", "STR_062", "STR_345", "STR_071", "STR_416", "STR_316", "STR_418", "STR_186", "STR_275", "STR_434", "STR_085", "STR_207"];
+    const satisfactionScores = ["3.90", "3.84", "3.83", "3.89", "3.84", "3.82", "3.89", "3.89", "3.88", "3.88", "3.98", "3.93", "3.93", "3.93", "3.89", "3.86", "3.86"];
+
+    new Chart(document.getElementById('satisfactionStoresChart'), {
+        type: 'bar',
+        data: {
+            labels: satisfactionLabels,
+            datasets: [{
+                label: 'Average Satisfaction',
+                data: satisfactionScores.map(Number),
+                backgroundColor: greenGradient10.concat(starbucksColors),
+                borderColor: '#1e3932',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 5
+                }
+            }
+        }
+    });
+</script>
+
+
+</body></html>
