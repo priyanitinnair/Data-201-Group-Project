@@ -18,3 +18,4 @@ SELECT
         ORDER BY total_revenue DESC
 	) AS revenue_rank
 FROM category_revenue;
+
